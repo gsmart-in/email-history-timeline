@@ -1,0 +1,22 @@
+{
+  "name": "EmailTimeline",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode development",
+    "prod": "webpack --config webpack.config.js --mode production",
+    "start": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "bulma": "^0.7.2",
+    "copy-webpack-plugin": "^5.0.2",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
