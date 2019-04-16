@@ -1,22 +1,35 @@
 {
-  "name": "EmailTimeline",
-  "version": "1.0.0",
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --config webpack.config.js --mode development",
-    "prod": "webpack --config webpack.config.js --mode production",
-    "start": "webpack-dev-server --open"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "bulma": "^0.7.4",
+    "gatsby": "^2.3.16",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-source-filesystem": "^2.0.29",
+    "gatsby-transformer-hjson": "^2.1.8",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "bulma": "^0.7.2",
-    "copy-webpack-plugin": "^5.0.2",
-    "css-loader": "^1.0.0",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "node-sass": "^4.9.2",
-    "sass-loader": "^7.0.3",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.16.0",
-    "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^3.2.1"
+    "prettier": "^1.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

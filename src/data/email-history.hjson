@@ -1,0 +1,276 @@
+[
+	{
+		year:1971
+		title:SNDMSG & READMAIL Network Email
+		description:
+		'''
+		While developing the TENEX operating system, Ray Tomlinson and his team used local email programs known as READMAIL and SNDMSG. After adding CPYNET, the first email application for ARPANET had arrived because files could now be copied over the network. Ray Tomlinson informed his colleagues by sending them an email using the new program with instructions on how to use it  
+
+		The ‘@‘ symbol was used by Tomlinson so that host names and specific users could be combined; this introduced the ‘user@host’ model that is used today. Although these programs were incredibly simple, they built the foundation for the electronic mail system that would soon be used by millions. 
+		'''
+		people:
+		[
+			{
+				name:Ray Tomlinson
+				photo: https://upload.wikimedia.org/wikipedia/commons/0/01/Ray_Tomlinson_%28cropped%29.jpg
+				bio:
+				'''
+				Raymond Samuel Tomlinson was born in Amsterdam, New York in 1941. In 1967, he joined the legendary research and development company Bolt Beranek and Newman.
+				'''
+				bio_url: https://www.internethalloffame.org/official-biography-raymond-tomlinson
+				more_info:
+				[
+					{
+						title: Ray Tomlinson - Wikipedia
+						url: https://en.wikipedia.org/wiki/Ray_Tomlinson
+					},
+					{
+						title: Ray Tomlinson obituary
+						url: https://www.theguardian.com/technology/2016/mar/14/ray-tomlinson-obituary
+					},
+					{
+						title: Official Biography: Raymond Tomlinson
+						url:https://www.internethalloffame.org/official-biography-raymond-tomlinson
+					}
+				]
+			}
+		],
+		related:
+		[
+			{
+				title: Email History,  Dave Crocker
+				url:https://www.livinginternet.com/e/ei.htm
+			},
+			{
+				title: The History of Electronic Mail, Tom Van Vleck
+				url:https://multicians.org/thvv/mail-history.html
+			},
+			{
+				title: The history of email - nethistory.info
+				url: http://www.nethistory.info/History%20of%20the%20Internet/email.html
+			}
+		]
+	},
+	{
+		year:1972
+		title:RD for Email Management
+		description:
+		'''
+		Larry Roberts wrote the first "mail-manager software," RD. “RD” included capabilities to sort email headers by subject and date, giving users the ability to order the messages in their Inbox, and to read, save, and delete messages in the order they wished. 
+		
+		This inspired an outburst of variations on the mail manager. A legendary variation, MSG was created in 1975 by John Vittal. MSG quickly became the most widely used mail-management program due to its convenient features. It could handle an even greater amount of mail than RD, could sort messages into separate files, and most importantly, reply and forward with much greater ease.
+		'''
+		people:
+		[
+			{
+				name: Larry Roberts
+				photo: https://upload.wikimedia.org/wikipedia/commons/e/e9/Larry_Roberts.jpg
+				bio: 
+				'''
+				Lawrence G. Roberts is best known for his work on the development of the ARPANET.
+				He was hired as program manager and technical architect for the ARPANET in 1966, and later became director of the main computing office at ARPA
+				'''
+				bio_url: https://www.computerhistory.org/fellowawards/hall/larry-roberts/
+				more_info:
+				[
+					{
+						title: Larry Roberts | Computer History Museum
+						url: https://www.computerhistory.org/fellowawards/hall/larry-roberts/
+					},
+					{
+						title: Lawrence Roberts
+						url:https://www.internethalloffame.org/inductees/lawrence-roberts
+					},
+					{
+						title: Lawrence Roberts (scientist) Wikipedia
+						url: https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)
+					},
+					{
+						title: Larry Roberts - Biography, History and Inventions
+						url: https://history-computer.com/Internet/Birth/Roberts.html
+					}
+				]
+			}
+		],
+		related:
+		[
+			{
+				title: The Origins of E-mail
+				url: https://cs.stanford.edu/people/eroberts/courses/soco/projects/1999-00/internet/email.html
+			},
+			{
+				title: Behind the Net: The untold history of the ARPANET By Michael Hauben
+				url: http://www.columbia.edu/~hauben/CS/nwg.txt
+			}
+		]
+	},
+	{
+		year:1972
+		title: MAIL & MLFL
+		description:
+		'''
+		Abhay Bhushan from MIT and colleagues proposed adding commands to FTP protocol  to provide standard network transport capabilities for email transmission. Basically the emails piggy backed on FTP.  FTP sent a separate copy of each email to each recipient, and provided the standard ARPANET email functionality until the early 1980's when the more efficient SMTP protocol was created.
+		'''
+		people:
+		[
+			{
+				name: Abhay Bhushan
+				photo: https://dora.iitk.ac.in/dora/images/bt-img/Abhay%20K%20bhusan.jpg
+				bio:
+				'''
+				 Abhay Bhushan obtained his B.Tech. degree in Electrical Engineering from IIT Kanpur in 1965 following which he went to the Massachusetts Institute of Technology to pursue Masters.
+				 Abhay Bhushan is credited with authoring the File Transfer Protocol (FTP) and early versions of e-mail protocols.
+				'''
+				bio_url: https://dora.iitk.ac.in/dora/abhay-bhushan-profile
+				more_info:
+				[
+					{
+						title: Abhay Bhushan - Wikipedia
+						url: https://en.wikipedia.org/wiki/Abhay_Bhushan
+					},
+					{
+						title: Abhay bhushan profile - IIT Kanpur
+						url: https://dora.iitk.ac.in/dora/abhay-bhushan-profile
+					}
+				]
+			}
+		]
+
+	},
+
+	{
+		year: 1973
+		title: Email Standards
+		description:
+		'''
+		At this point, it was obvious that there should be some standards how the emails are formatted and how the addresses are handled. So, there started Attempts to develop a standard for the email. The initial proposals were as extensions of the FTP protocol (RFC 469 and RFC 475) . RFC 561 “Standardizing Network Mail Headers”  proposes the common things such as the ‘to’ and ‘from’ fields. The standard proposes the separation of email payload metadata from email routing data. These proposals  later evolve in to RFC 733 (1977)  and RFC 822(1982).
+		
+		For those unaware, RFC actually stands for ‘Request for Comments’ and was named as such to encourage discussion within the industry. Once it has been discussed and edited, the final RFC then becomes the standard. 
+		'''
+		related:
+		[
+			{
+				title: RFC 561 Standardizing Network Mail Headers
+				url: https://tools.ietf.org/html/rfc561
+			},
+			{
+				title: RFC 733 Standard for the format of ARPA network text messages
+				url: https://tools.ietf.org/html/rfc733
+			},
+			{
+				title: Standard For The Format Of ARPA Internet Text Messages
+				url: https://www.ietf.org/rfc/rfc822.txt
+			},
+			{
+				title: Email address Wikipedia
+				url: https://en.wikipedia.org/wiki/Email_address
+			},
+			{
+				title: Internet E-mail address format (RFC 822) explained
+				url: http://jkorpela.fi/rfc/822addr.html
+			}
+		]
+	}
+	{
+		year:1975
+		title: MSG - Reply, forward emails
+		description:
+		'''
+		MSG was the first email program to include many of the email features that we know today.  John Vittal, A computer programmer who worked at the University of Southern California's Information Sciences Institute,  improved on the older version of email, called BANANARD, and later called the new program MSG. 
+		MSG had features like message forwarding, a configurable interface, and an Answer command that automatically created properly addressed replies. For the users, the Answer command was revolutionary. It resulted in an outburst of email use over a 6-month period. Email changed from just sending independent messages into having a real conversation.
+		'''
+		people:
+		[
+			{
+				name: John Vittal
+				photo: http://www.ithistory.org/sites/default/files/honor-roll/John%20Vittal.jpg
+				bio:
+				'''
+				A computer programmer who worked at the University of Southern California's Information Sciences Institute, he was responsible for transforming the old email system into the highly user-friendly tool of today
+				'''
+				bio_url:http://www.ithistory.org/honor-roll/mr-john-vittal,
+				more_info:
+				[
+					{
+						title: Ray Tomlinson & John Vittal
+						url: http://internetgurus.web.unc.edu/the-internet/ray-tomlinson/
+					},
+					{
+						title: John Vittal, Bio/Description
+						url: http://www.ithistory.org/honor-roll/mr-john-vittal
+					}
+				]
+			}
+		]
+	},
+	{
+		year: 1976
+		title: Queen Elizabeth II sends an email message on ARPANET
+		description:
+		'''
+		In 1976, Queen Elizabeth II became the very first head of state to send an email on ARPANET with the username ‘HME2’. In a later interview, the account creator Peter Kirstein noted how she simply had to press a few buttons and the message was sent. As the man who bought the ARPANET to the UK, it was apt that he helped the Queen, three years after working at the University of London and setting up a network code. 
+		'''
+		people:
+		[
+			{
+				name: Peter Kirstein
+				photo: http://www0.cs.ucl.ac.uk/people/photos/P.Kirstein.gif
+				bio:
+				'''
+				In the early 70s, Professor Kirstein started the first European ARPANET node with transatlantic IP connectivity, and has been involved ever since with European and transatlantic collaborations on IP networking research
+				'''
+				bio_url: https://www.internethalloffame.org/official-biography-peter-kirstein
+				more_info:
+				[
+					{
+						title: Peter Kirstein | Internet Hall of Fame
+						url: https://internethalloffame.org/inductees/peter-kirstein
+					},
+					{
+						title: Peter T. Kirstein - Wikipedia
+						url: https://en.wikipedia.org/wiki/Peter_T._Kirstein
+					}
+				]
+			}
+		],
+		related:
+		[
+			{
+				title:How The Queen Of England Beat Everyone To The Internet
+				url: https://www.wired.com/2012/12/queen-and-the-internet/
+			}
+		]
+	},
+	{
+		year: 1982
+		title: Simple Mail Transfer Protocol (SMTP) gets published
+		description:
+		'''
+		SMTP is an Internet standard for email transmission. The protocol is defined by  RFC 821 SMTP protocol was later enhanced in 2008 by  RFC 5321 . SMTP is generally used to send messages from a mail client to a mail server.
+		'''
+		related:
+		[
+			{
+				title: RFC 821 Simple Mail Transfer Protocol
+				url: https://tools.ietf.org/html/rfc821
+			},
+			{
+				title: RFC 5321 Simple Mail Transfer Protocol
+				url: https://tools.ietf.org/html/rfc5321
+			},
+			{
+				title: Simple Mail Transfer Protocol - Wikipedia
+				url: https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
+			},
+			{
+				title: Simple Mail Transfer Protocol (SMTP) - GeeksForGeeks
+				url: https://www.geeksforgeeks.org/simple-mail-transfer-protocol-smtp/
+			},
+			{
+				title: SMTP | javatpoint
+				url: https://www.javatpoint.com/simple-mail-transfer-protocol
+			}
+		]
+	}
+
+]
