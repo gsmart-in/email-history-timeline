@@ -31,7 +31,10 @@ export default class HistoryEvent extends React.Component
 			        </div>
 			    </div>
 			</div>
-			<People people={this.props.evt.people}></People>
+			{this.props.evt.people &&
+				<People people={this.props.evt.people}></People>
+			}
+			
 			</div>
 	    )
 	}
