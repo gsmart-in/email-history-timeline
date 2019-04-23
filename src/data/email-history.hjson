@@ -271,6 +271,830 @@
 				url: https://www.javatpoint.com/simple-mail-transfer-protocol
 			}
 		]
+	},
+	{
+		year:1983
+		title: SendMail
+		description:
+		'''
+		Sendmail is a general purpose email routing facility with support for  Simple Mail Transfer Protocol (SMTP) . Written by  Eric Allman, sendmail first shipped with BSD 4.1c in 1983. Sendmail is one of the most popular mail transfer agents ever since
+		'''
+		people:
+		[
+			{
+				name: Eric Allman
+				photo: https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Eric_Allman_2018.jpg/440px-Eric_Allman_2018.jpg
+				bio:
+				'''
+				Born in El Cerrito, California, Allman knew from an early age that he wanted to work in computing, breaking into his high school's mainframe and later using the UC Berkeley computing center for his computing needs. 
+				'''
+				bio_url: https://www.internethalloffame.org/inductees/eric-allman
+				more_info:
+				[
+					{
+						url: https://en.wikipedia.org/wiki/Eric_Allman
+						title: Eric Allman - Wikipedia
+					},
+					{
+						url: https://www.internethalloffame.org/inductees/eric-allman
+						title: Eric Allman | Internet Hall of Fame
+					},
+					{
+						url: https://www.usenix.org/system/files/login/articles/login_summer17_09_allman_interview.pdf
+						title: Interview with Eric Allman | USENIX
+					}
+				]
+			}
+		]
+		related:
+		[
+			{
+				url: https://web.archive.org/web/20150807104509/http://www.mailradar.com/mailstat/
+				title: MailRadar (internet archive)
+			},
+			{
+				url: https://www.aosabook.org/en/sendmail.html
+				title: The Architecture of Open Source Applications: Sendmail
+			}
+		]
+	},
+	{
+		year: 1984
+		title: Post Office Protocol
+		description:
+		'''
+		Post Office Protocol (POP) is an Internet standard protocol used by e-mail clients to retrieve e-mail from a mail server. POP version 3 (POP3) is the version in common use.
+
+		POP1 was specified in RFC 918 (1984) .The current and most recent version of Post office Protocol in use, is POP3 RFC 1939 (1996)
+		'''
+		related:
+		[
+			{
+				url: https://tools.ietf.org/html/rfc918
+				title: RFC 918 - Post Office Protocol 
+			},
+			{
+				url: https://en.wikipedia.org/wiki/Post_Office_Protocol
+				title: Post Office Protocol - Wikipedia
+			},
+			{
+				url: https://www.ietf.org/rfc/rfc1939.txt
+				title: RFC 1939 Post Office Protocol - Version 3
+			}
+		]
+	},
+	{
+		year: 1986
+		title: Internet Message Access Protocol ( IMAP)
+		description:
+		'''
+		IMAP was designed by Mark Crispin in 1986 as a remote access mailbox protocol, in contrast to the widely used POP, a protocol for simply retrieving the contents of a mailbox. IMAP was designed with the goal of permitting complete management of an email box by multiple email clients, therefore clients generally leave messages on the server until the user explicitly deletes them. 
+		Virtually all modern e-mail clients and servers support IMAP, which along with the earlier POP3 (Post Office Protocol) .The current and latest RFC of IMAP being  RFC 3501 (2003) 
+		'''
+		people:
+		[
+			{
+				name: Mark Crispin
+				photo: https://www.computerhope.com/people/pictures/mark_crispin.jpg
+				description:
+				'''
+				From 1977 to 1988, he was a Systems Programmer at Stanford University. He developed the first production PDP-10 32-bit address ARPAnet NCP for the WAITS operating system, and wrote or rewrote most of the WAITS ARPAnet protocol suite.
+				'''
+				bio_url: https://en.wikipedia.org/wiki/Mark_Crispin
+				more_info:
+				[
+					{
+						url: https://en.wikipedia.org/wiki/Mark_Crispin
+						title: Mark Crispin | Wikipedia
+					},
+					{
+						url: https://www.itprotoday.com/email-and-calendaring/mark-crispin-father-imap-rip
+						title: Mark Crispin, father of IMAP, RIP | itprotoday
+					},
+					{
+						url: https://news.ycombinator.com/item?id=4825893
+						title: News about Mark Crispin (author of the original IMAP specification) | Hacker News 
+					},
+					{
+						url: https://www.computerhope.com/people/mark_crispin.htm
+						title: Mark Crispin | CompterHope
+					}
+				]
+			}
+		],
+		related:
+		[
+			{
+				url: https://github.com/jonabbey/panda-imap
+				title: Git repository holding complete public history of Mark Crispin's Panda IMAP / UW IMAP server
+			},
+			{
+				url: https://howlingpixel.com/i-en/Internet_Message_Access_Protocol
+				title: Internet Message Access Protocol | Howling Pixel
+			},
+			{
+				url: https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
+				title: Internet Message Access Protocol | Wikipedia
+			},
+			{
+				url: https://tools.ietf.org/html/rfc3501
+				title: RFC 3501 Internet Message Access Protocol - Version 4rev1
+			}
+		]
+
+	},
+	{
+		year: 1986
+		title: Elm email client
+		description:
+		'''
+		Elm is a text-based email client commonly found on Unix systems. It became popular as one of the first email clients to use a text user interface. The name elm originated from the phrase ELectronic Mail.
+		Dave Taylor developed elm while working for Hewlett-Packard. Development later passed to a team of volunteers. Other popular text-based email readers which followed elm and took it as an inspiration include Pine (1989) and Mutt (1995). elm slowly slipped in popularity and functionality, and it now sees relatively little use.
+		
+		'''
+		people:
+		[
+			{
+				name: Dave Taylor
+				photo: https://www.askdavetaylor.com/wp-content/uploads/2013/08/Taylor-6416.jpg
+				bio:
+				'''
+				Dave Taylor got his undergraduate degree in Computer Science (with a minor in Philosophy) from University of California, San Diego. Taylor soon joined Hewlett-Packard's Colorado Networks Operation, and while there began creation of The Elm Mail System.
+				'''
+				bio_url: https://web.archive.org/web/20170424041508/https://www.intuitive.com/bio.shtml
+				more_info:
+				[
+					{
+						title: Dave Taylor | Twitter
+						url: https://twitter.com/DaveTaylor
+					},
+					{
+						title: Biography of Dave Taylor
+						url: https://web.archive.org/web/20170424041508/https://www.intuitive.com/bio.shtml
+					},
+					{
+						title: ask dave taylor - about
+						url: https://www.askdavetaylor.com/about_dave/
+					}
+				]
+			}
+		],
+		related:
+		[
+			{
+				title: Elm (email client) | Wikipedia
+				url: https://en.wikipedia.org/wiki/Elm_(email_client)
+			},
+			{
+				title: ELM - Electronic Mail for UNIX | instinct.org
+				url:http://www.instinct.org/elm/
+			},
+			{
+				title: Linux elm command | computerhope.com
+				url: https://www.computerhope.com/unix/uelm.htm
+			},
+			{
+				url: https://en.wikipedia.org/wiki/Pine_(email_client)
+				title: Pine (email client) | Wikipedia
+			},
+			{
+				title: Why I still love Alpine for email at the Linux terminal | opensource.com
+				url: https://opensource.com/article/18/8/love-alpine
+			},
+			{
+				title: The Mutt E-Mail Client
+				url: http://www.mutt.org/
+			},
+			{
+				title: Top 4 open source command-line email clients | Opensource.com
+				url: https://opensource.com/life/15/8/top-4-open-source-command-line-email-clients
+			},
+			{
+				title: Why Security Experts Are Using an Ancient Email Format in 2015 | motherboard.vice.com
+				url: https://motherboard.vice.com/en_us/article/nzea38/why-security-experts-are-using-an-ancient-email-format-in-2015
+			}
+		]
+	},
+	{
+		year: 1988
+		title: Eudora Email Client
+		description:
+		'''
+		In 1988 , Steve Dorner created Eudora, an application that gave a popular face to email by providing a graphical user interface for email management. Eudora supported all major platforms at that time including  classic Mac OS, Mac OS X, and Microsoft Windows operating systems. It also supported several palmtop computing platforms, including Newton and the Palm OS. 
+		Eudora was acquired by Qualcomm in 1991.  In 2006 Qualcomm stopped development of the commercial version, and sponsored the creation of a new open-source version based on Mozilla Thunderbird. Development of the open-source version stopped in 2010 and was officially deprecated in 2013. The computer history museum open sourced Eudora in 2018 
+		'''
+		people:
+		[
+			{
+				name:Steve Dorner
+				photo: https://www.ithistory.org/sites/default/files/honor-roll/Steve%20Dorner.jpg
+				bio:
+				'''
+				An American software engineer, he developed the Eudora e-mail client in 1988 as a part of his work as a staff member at the University of Illinois at Urbana-Champaign. 
+				'''
+				bio_url: https://www.ithistory.org/honor-roll/mr-steve-dorner
+				more_info:
+				[
+					{
+						title: Steve Dorner - Wikipedia
+						url: https://en.wikipedia.org/wiki/Steve_Dorner
+					},
+					{
+						title: Steve Dorner (@SteveDorner) | Twitter
+						url: https://twitter.com/stevedorner
+					},
+					{
+						title: Steve Dorner - Computer Hope
+						url: https://www.computerhope.com/people/steve_dorner.htm
+					},
+					{
+						title: For Inventor of Eudora, Great Fame, No Fortune | nytimes.com archive
+						url: https://archive.nytimes.com/www.nytimes.com/library/cyber/week/012197eudora.html
+					},
+					{
+						title: InterviewBITS with Steve Dorner
+						url:http://www.nzdl.org/gsdlmod?e=d-00000-00---off-0tidbits--00-0----0-10-0---0---0direct-10---4-------0-1l--11-en-50---20-about---00-0-1-00-0--4----0-0-11-10-0utfZz-8-00&cl=CL1.3&d=HASH0104c6be6f245ef13bd2b561.2&gt=1
+					}
+				]
+			}
+		]
+		related:
+		[
+			{
+				title: Eudora availability announcement in news groups
+				url: https://groups.google.com/forum/?hl=en#!original/comp.archives/NgbQu78ODXY/foLFQMK0vOMJ
+			},
+			{
+				title: The Eudora™ Email Client Source Code
+				url: https://www.computerhistory.org/atchm/the-eudora-email-client-source-code/
+			},
+			{
+				title:Eudora History: Email for a Different Era - Tedium.co
+				url: https://tedium.co/2017/09/28/eudora-email-history/
+			},
+			{
+				title: The 80s Software Program That Made Email Famous
+				url: https://motherboard.vice.com/en_us/article/mb9ad8/eudora-email
+			}
+
+		]
+	},
+	{
+		year: 1988
+		title: Microsoft Mail 
+		description:
+		'''
+		The first version of Microsoft Mail was released in 1988 for Mac OS, allowing users of Apple’s AppleTalk Networks to send messages to each other. In 1991, a second version was released for other platforms including DOS and Windows, which laid the groundwork for Microsoft’s later Outlook and Exchange email systems.
+		
+		'''
+		related:
+		[
+			{
+				url: https://en.wikipedia.org/wiki/Microsoft_Mail
+				title: Microsoft Mail | Wikipedia
+			}
+		]
+	},
+	{
+		year: 1989
+		title: Lotus Notes
+		description:
+		'''
+		The first release of Lotus Notes email software. 35,000 copies are sold in the first year.
+		'''
+		related:
+		[
+			{
+				title: A Lotus Notes History Lesson | Sherpa Software
+				url: https://sherpasoftware.com/blog/lotus-notes-history/
+			},
+
+		]
+	},
+	{
+		year: 1991
+		title: First E-mail From Space
+		description:
+		'''
+		Astronauts Shannon Lucid and James C. Adamson sent the first email from space on a Macintosh Portable: “Hello Earth! Greetings from the STS-43 Crew. This is the first AppleLink from space. Having a GREAT time, wish you were here,...send cryo and RCS! Hasta la vista, baby,...we'll be back!”
+		'''
+		related:
+		[
+			{
+				title: First E-mail From Space Is Sent from a Mac Portable | computinghistory.org.uk
+				url: http://www.computinghistory.org.uk/det/6115/First-E-mail-From-Space-Is-Sent-from-a-Mac-Portable/
+			},
+			{
+				title: Laptop Clinton used to send historic email to outer space auctioned for $60K | collectspace.com
+				url: http://www.collectspace.com/news/news-042114a-glenn-clinton-email-auction.html
+			},
+			{
+				title: Today in Apple history: Mac sends first email from space | cultofmac.com
+				url: https://www.cultofmac.com/499200/apple-history-first-email-from-space/
+			}
+		]
+	},
+	{
+		year: 1991
+		title: Email Encryption and PGP(Pretty Good Privacy)
+		description:
+		'''
+		Up until now, all emails had been sent in plain text which soon raised security questions since anybody on the same communication channel could read the content. In fact, the problems were spotted in the 1980s and a privacy proposal was being worked on by the IETF. Called Privacy-Enhanced Mail (PEM), it seemed to reach a stumbling block and couldn’t be adopted by universal systems. 
+
+		By 1991, Phil Zimmerman, a software engineer and political activist, grew frustrated by the lack of security and created PGP encryption. Once announced on a USENET group, it quickly became popular for those who shared the same privacy concerns. Over time, it went international and Zimmerman actually came under some pressure in 1993; he was investigated by the U.S. government for exporting munitions without a license. Later, no criminal charges were filed and the case was dropped. 
+
+		As PGP continued its tour around the world, thousands of people started to work on software that interoperated with it. For Zimmerman, the focus was now on an open standard for this type of encryption. In 1997, the IETF received a proposal from PGP Inc for ‘OpenPGP’. After accepting, this paved the way for OpenPGP Working Group and the latest specification came in 2007 under RFC 4880. 
+		'''
+		people:
+		[
+			name: Philip Zimmermann
+			photo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PRZ_closeup_cropped.jpg/440px-PRZ_closeup_cropped.jpg
+			bio:
+			'''
+			Before founding PGP Inc., Zimmermann was a software engineer with more than 20 years of experience, specializing in cryptography and data security, data communications, and real-time embedded systems. 
+			'''
+			bio_url: https://www.internethalloffame.org/official-biography-philip-zimmermann
+			more_info:
+			[
+				{
+					url: https://www.internethalloffame.org/official-biography-philip-zimmermann
+					title: Philip Zimmermann | Internet Hall of Fame
+				},
+				{
+					url: https://philzimmermann.com
+					title: philzimmermann.com
+				},
+				{
+					url: https://www.youtube.com/watch?v=59sWJT6uso0
+					title: Phil Zimmermann: "Communications Security" | Talks at Google
+				},
+				{
+					title: Creator of PGP, Phil Zimmermann Talks At Bitcoin Wednesday
+					url: https://www.youtube.com/watch?v=M8z0Nx8svC4
+				},
+				{
+					title: Interview: Cryptographer Phil Zimmermann on encrypted email | computing.co.uk
+					url: https://www.computing.co.uk/ctg/interview/3034069/interview-cryptographer-phil-zimmermann-on-encrypted-email-and-defeating-us-export-controls
+				}
+			] 
+		]
+		related:
+		[
+			{
+				title: A Brief History of Secure Email | Orman, Hilarie
+				url: https://www.springer.com/cda/content/document/cda_downloaddocument/9783319213439-c2.pdf?SGWID=0-0-45-1521204-p177556641
+			},
+			{
+				title: Privacy-Enhanced Mail - Wikipedia
+				url: https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail
+			},
+			{
+				title: Privacy-Enhanced Mail (PEM) Michael A. Gurski
+				url: https://www.csee.umbc.edu/~woodcock/cmsc482/proj1/pem.html
+			},
+			{
+				title: Pretty Good Privacy - Wikipedia
+				url: https://en.wikipedia.org/wiki/Pretty_Good_Privacy
+			},
+			{
+				title:Usenet post from 1992
+				url: https://groups.google.com/d/msg/sci.crypt/4iAe59Y-Bo0/Xwr5xIhh2OwJ
+			},
+			{
+				title: 10th anniversary of the release of PGP
+				url:https://philzimmermann.com/text/PGP_10thAnniversary.txt
+			},
+			{
+				title: How PGP works | cmu.edu
+				url: https://users.ece.cmu.edu/~adrian/630-f04/PGP-intro.html
+			}
+		]
+	},
+	{
+		year: 1992
+		title: MIME and email attachments
+		description:
+		'''
+		The attachment was born when the Multipurpose Internet Mail Extensions (Mime) protocol was released, which includes the ability to attach things that are not just text to emails. 
+
+As a new standard, the format of emails was extended and could now support a variety of new functions. This included non-text attachments (images, videos, audio clips, and more), character sets beyond ASCII, numerous sections in message bodies, and even non-ASCII header information.
+
+Created by Nathaniel Borenstein and Ned Freed, it was the former who sent the first attachment through email on March 11th. Today, MIME can be found in six unique RFC memoranda including RFC 2045, RFC 2046, RFC 2047, RFC 4288, RFC 4289 and RFC 2049. 
+
+		'''
+		people:
+		[
+			{
+				name: Ned Freed
+				bio:
+				'''
+				Edwin Earl "Ned" Freed was born in 1959 in Oklahoma. After College he set up a company, Innosoft, with Kevin Carosso and Daniel Newman, working on PMDF messaging systems on DEC VAX systems. 
+				'''
+				bio_url: https://en.wikipedia.org/wiki/Ned_Freed
+				more_info:
+				[
+					{
+						title: Ned Freed | Wikipedia
+						url: https://en.wikipedia.org/wiki/Ned_Freed
+					},
+					{
+						title: Profile for Ned Freed - IETF Datatracker
+						url: https://datatracker.ietf.org/person/Ned%20Freed
+					},
+					{
+						title: Ned Freed -  Profile | LinkedIn
+						url: https://www.linkedin.com/in/ned-freed-b3b681/
+					}
+				]
+			},
+			{
+				name: Nathaniel Borenstein
+				photo: http://www.guppylake.com/~nsb/images/current.jpg
+				bio:
+				'''
+				Nathaniel Borenstein is a scientist/programmer/inventor/entrepreneur who has been involved in Internet-related innovations since 1980, specializing in e-mail technology, human-computer interaction, and electronic commerce.
+				'''
+				bio_url:http://www.guppylake.com/~nsb/
+				related:
+				[
+					{
+						title: Nathaniel Borenstein - Wikipedia
+					    url: https://en.wikipedia.org/wiki/Nathaniel_Borenstein	
+					},
+					{
+						title: Nathaniel Borenstein (@drmime) | Twitter
+						url: https://twitter.com/drmime
+					},
+					{
+						title: Mimecast Blog | Articles by Nathaniel Borenstein
+						url: https://www.mimecast.com/blog/author/nathaniel-borenstein/
+					},
+					{
+						title: Interview: Nathaniel Borenstein - The Father of MIME
+						url: https://www.coursera.org/lecture/python-data-visualization/interview-nathaniel-borenstein-the-father-of-mime-jshcH
+					},
+					{
+						title: Google Lecture Series: Nathaniel Borenstein| youtube
+						url: https://www.youtube.com/watch?v=O4jBYO3MHPQ
+					}
+					
+				]
+			}
+		]
+		related:
+		[
+			{
+				title: The MIME guys: How two Internet gurus changed e-mail forever
+				url: https://www.networkworld.com/article/2199390/the-mime-guys--how-two-internet-gurus-changed-e-mail-forever.html
+			},
+			{
+				title: This Picture Was The First Email Attachment Ever Sent | businessinsider.in
+				url: https://www.businessinsider.in/This-Picture-Was-The-First-Email-Attachment-Ever-Sent/articleshow/31912389.cms
+			},
+			{
+				title: MIME explanation | sourceforge.io
+				url: https://rand-mh.sourceforge.io/book/overall/mulmes.html
+			},
+			{
+				title: Mime and mail related RFCs
+				url: https://gist.github.com/Xerkus/3840496
+			}
+		]
+	},
+	{
+		year:1993
+		title: Microsoft’s Outlook & AOL
+		description:
+		'''
+		The first version of Microsoft’s Outlook was released in 1993 as part of Exchange Server 5.5, while at the same time US internet service providers AOL and Delphi connected their email systems
+		'''
+
+	},
+	{
+		year: 1993
+		title:  Web Mail
+		description:
+		'''
+		The first Web Mail implementation was developed at CERN in 1993 by Phillip Hallam-Baker
+		However this project was not developed further.
+		'''
+		people:
+		[
+			{
+				name: Phillip Hallam-Baker
+				photo: https://www.comodo.com/resources/home/newsletters/sep-10/images/phillip_vp_photo.jpg
+				bio:
+				'''
+				Phillip Hallam-Baker is a computer scientist, mostly renowned for his contributions to Internet security, since the design of HTTP at CERN in 1992.
+				'''
+				bio_url: https://en.wikipedia.org/wiki/Phillip_Hallam-Baker
+				more_info:
+				[
+					{
+						title:Phillip M. Hallam-Baker - World Wide Web Consortium
+						url: https://www.w3.org/People/Hallam/
+					},
+					{
+						title: How to make secure email easy to use 
+						url: https://www.youtube.com/watch?v=PTKrt471vTU
+					},
+					{
+						title: Phillip Hallam-Baker (@hallam) | Twitter
+						url: https://twitter.com/hallam
+					},
+					{
+						title: Phillip Hallam-Baker | dotcrimemanifesto.com
+						url: http://www.dotcrimemanifesto.com/
+					}
+				]
+			}
+		]
+		related:
+		[
+			{
+				title: Webmail | Wikipedia
+				url: https://en.wikipedia.org/wiki/Webmail
+			},
+			{
+				title: Network Solutions Webmail (pdf)
+				url: http://testes.powertic.com/network_solutions_webmail.pdf
+			},
+			{
+				title: The History of Email | eager.io
+				url: https://eager.io/blog/history-of-email/
+			}
+		]
+	},
+	{
+		year: 1995
+		title: Exim Mail Server
+		description:
+		'''
+		The first version of Exim was written in 1995 by Philip Hazel for use in the University of Cambridge Computing Service’s email systems. The name Exim stood for EXperimental Internet Mailer. Exim still continues to be one of the popular email servers
+		'''
+		people:
+		[
+			{
+				name: Philip Hazel
+				photo: https://github.com/Exim/exim/wiki/attachments/PhilipHazel3.jpg
+				bio:
+				'''
+				Philip Hazel is best known for writing the Exim mail transport agent in 1995  and the PCRE regular expression library in 1997
+				'''
+				bio_url: https://en.wikipedia.org/wiki/Philip_Hazel
+				more_info:
+				[
+					{
+						title: Philip Hazel | Wikipedia
+						url: https://en.wikipedia.org/wiki/Philip_Hazel
+					},
+					{
+						title: Regex Legends: The People Behind the Magic
+						url: http://blog.stevenlevithan.com/archives/regex-legends
+					},
+					{
+						title: Philip Hazel's Site | people.ds.cam.ac.uk
+						url: http://people.ds.cam.ac.uk/ph10/
+					},
+					{
+						title:Philip Hazel - exim wiki | github.com
+						url: https://github.com/Exim/exim/wiki/PhilipHazel
+					}
+				]
+			}
+		]
+		related:
+		[
+			{
+				title: Mail (MX) Server Survey, 2017 - securityspace.com
+				url: http://www.securityspace.com/s_survey/data/man.201711/mxsurvey.html
+			},
+			{
+				title: Exim Internet Mailer - exim.org
+				url: https://www.exim.org/
+			},
+			{
+				title: Exim Mail Transport Agent - source, testsuite and documentation | github.com
+				url: https://github.com/Exim/exim
+			}
+		]
+	},
+	{
+		year: 1996
+		title: Mail Abuse Prevention System
+		description:
+		'''
+		Email spam (unsolicited, mass-sent emails ) started becoming a problem by now. Email users have to wade through many unsolicited email messages before getting to emails meant to them. 
+Dave Rand and Paul Vixie, had started keeping a list of IP addresses which had sent out spam or engaged in other behavior they found objectionable. The list became known as the Real-time Blackhole List (RBL). Many network managers wanted to use the RBL to block unwanted email. Thus, Rand and Vixie created a DNS-based distribution scheme which quickly became popular. The "blackhole list" made it possible for mail servers to block mail coming from spam sources.
+		'''
+		related:
+		[
+			{
+				title: Industry Anti-Spammer Pioneer Dave Rand Receives Lifetime Achievement 2018 M(3)AAWG Litynski Award
+				url: https://www.globenewswire.com/news-release/2018/03/28/1454893/0/en/Industry-Anti-Spammer-Pioneer-Dave-Rand-Receives-Lifetime-Achievement-2018-M-3-AAWG-Litynski-Award.html
+			},
+			{
+				title: Mail Abuse Prevention System | Wikipedia
+				url: https://en.wikipedia.org/wiki/Mail_Abuse_Prevention_System
+			}
+		]
+	},
+	{
+		year: 1996
+		title: Microsoft releases Internet Mail and News 1.0, a feature of its third release of Internet Explorer.
+		description:
+		'''
+		Version 1.0 was released as Microsoft Internet Mail and News in 1996 following the Internet Explorer 3 release. In 1997 the app was changed and renamed as Outlook Express and bundled with Internet Explorer 4. Outlook Express 4 could run on Mac System 7, OS 8, and OS 9 as well as Microsoft platforms. The last version of Outlook express was version 6 included with Windows XP
+		'''
+		related:
+		[
+			{
+				title: Outlook Express - Wikipedia
+				url: https://en.wikipedia.org/wiki/Outlook_Express
+			},
+			{
+				title: The 50 most significant moments of Internet history | cnet.com
+				url: https://www.cnet.com/news/the-50-most-significant-moments-of-internet-history/
+			}
+		]
+	},
+	{
+		year:1996
+		title: Hotmail
+		description:
+		'''
+		1996 saw the launch of one of the first popular webmail email services called HoTMaiL developed by Sabeer Bhatia and Jack Smith. It was one of the first email services not tied to a particular ISP and adopted new HTML-based email formatting – hence the stylising of the brand name. By December 1997, Hotmail reported to have more than 8.5 million subscribers.
+
+Hotmail was bought by Microsoft in 1997  for a reported $400 million, rebranded MSN Hotmail, then Windows Live Hotmail and replaced by Outlook.com in 2013.
+		'''
+		people:
+		[
+			{
+				name: Sabeer Bhatia
+				photo: https://res-3.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_256,w_256,f_auto,g_faces,z_0.7,q_auto:eco/v1482807047/knxdqlxalif8bdvqxtan.png
+				bio:
+				'''
+				Bhatia briefly worked for Apple Computer (as a hardware engineer) and Firepower Systems Inc. He, along with his colleague Jack Smith, set up Hotmail on 4 July 1996
+				'''
+				bio_url: https://en.wikipedia.org/wiki/Sabeer_Bhatia
+				more_info:
+				[
+					{
+						title: Sabeer Bhatia | Wikipedia
+						url: https://en.wikipedia.org/wiki/Sabeer_Bhatia
+					},
+					{
+						title: Sabeer Bhatia | crunchbase.com
+						url: https://www.crunchbase.com/person/sabeer-bhatia#section-overview
+					},
+					{
+						title: Sabeer Bhatia | LinkedIn
+						url:https://www.linkedin.com/in/sabeer-bhatia-b36b84/
+					},
+					{
+						title: Sabeer Bhatia’s journey from $400 mln Microsoft deal to IoT for agriculture | alarabiya.net
+						url: http://english.alarabiya.net/en/business/technology/2018/03/22/Sabeer-Bhatia-s-journey-from-400-mln-Hotmail-Microsoft-deal-to-IoT-for-agriculture.html
+					},
+					{
+						title: Co-founder of Hotmail Sabeer Bhatia on "The Valley Girl Show" with Jesse Draper | Youtube
+						url: https://www.youtube.com/watch?v=d9qEmm-XQAI
+					}
+				]
+			},
+			{
+				name: Jack Smith
+				photo: https://uploads-ssl.webflow.com/599e5bf08e3f0b0001988435/5b1a9e678f94e6fac60bfeff_jack.png
+				bio:
+				'''
+				Jack Smith worked at FirePower Systems Inc., a subsidiary of Canon Inc., where he designed integrated circuits for use in high performance PowerPC workstations, and invented and marketed the first web server accelerator card that boosted server performance significantly.
+				'''
+				bio_url:https://en.wikipedia.org/wiki/Jack_Smith_(Hotmail)
+				more_info:
+				[
+					{
+						title: Jack Smith (Hotmail) - Wikipedia
+						url: https://en.wikipedia.org/wiki/Jack_Smith_(Hotmail)
+					},
+					{
+						title: Jack Smith - Crunchbase
+						url: https://www.crunchbase.com/person/jack-smith-12
+					},
+					{
+						title: JACK SMITH Partner | aminocapital.com
+						url: https://www.aminocapital.com/partner/jack-smith
+					}
+				]
+			}
+		]
+		related:
+		[
+			{
+				title: Hotmail, Microsoft talk deals - cnet.com (1997)
+				url: https://www.cnet.com/news/hotmail-microsoft-talk-deals/
+			},
+			{
+				title: Hotmail Turns Three: Still the Leader After All These Years - news.microsoft.com (1999)
+				url: https://news.microsoft.com/1999/07/12/hotmail-turns-three-still-the-leader-after-all-these-years/
+			},
+			{
+				title: Founders At Work: Uncovering The Truth Behind A Hotmail Founder's Claims - techcrunch.com (2009)
+				url: https://techcrunch.com/2009/02/23/founders-at-work-uncovering-the-truth-behind-a-hotmail-founders-claims/
+			}
+		]
+
+	},
+	{
+		year: 1997
+		title: RocketMail / Yahoo Mail
+		description:
+		'''
+		RocketMail was one of the first major, free webmail services. The service was originally a product of Four11 Corporation. For a brief time, RocketMail battled with Hotmail for the number-one spot among free webmail services. Four11, including RocketMail, was acquired by Yahoo! in 1997 for $92 million.
+		'''
+		related:
+		[
+			{
+				title: Yahoo buys Four11 for free email - cnet.com (1997)
+				url: https://www.cnet.com/news/yahoo-buys-four11-for-free-email/
+			},
+			{
+				title: RocketMail - Wikipedia
+				url: https://en.wikipedia.org/wiki/RocketMail
+			}
+		]
+	},
+	{
+		year: 1998
+		title: You’ve Got Mail movie
+		description:
+		'''
+		The romantic comedy You’ve Got Mail, starring Meg Ryan and Tom Hanks, hit theaters in 1998. Kathleen and Joe used AOL software to connect to the Internet. They were both using version 4.0 which was in beta testing mode when the film was being made. All of Joe and Kathleen's emails were put on the movie's official website.
+
+		'''
+		related:
+		[
+			{
+				title: You've Got Mail Internet archive (web.archive.org)
+				url: https://web.archive.org/web/20140614203358fw_/http://youvegotmail.warnerbros.com/cmp/1inter.html
+			},
+			{
+				title: You've Got Mail | warnerbros.com
+				url: http://youvegotmail.warnerbros.com/
+			}
+		]
+	},
+	{
+		year: 1998
+		title: Postfix Mail Server
+		description:
+		'''
+		Postfix is a free and open-source mail transfer agent (MTA) that routes and delivers email. Originally written by Wietse Venema Postfix continues to be actively developed by its creator and other contributors. Postfix is still one of the popular mail servers.
+		'''
+		people:
+		[
+			{
+				name: Wietse Venema
+				photo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Wietse_Venema_%28cropped%29.jpg/440px-Wietse_Venema_%28cropped%29.jpg
+				bio:
+				'''
+				Wietse Zweitze Venema (born 1951) is a Dutch programmer and physicist best known for writing the Postfix email system.
+				'''
+				bio_url: https://en.wikipedia.org/wiki/Wietse_Venema
+				more_info:
+				[
+					{
+						title: Wietse's Home page
+						url: http://www.porcupine.org/wietse/
+					},
+					{
+						title: Wietse Venema - Wikipedia
+						url: https://en.wikipedia.org/wiki/Wietse_Venema
+					},
+					{
+						title: Catching up with Wietse Venema, creator of Postfix and TCP Wrapper | linuxsecurity.com
+						url: https://linuxsecurity.com/features/features/catching-up-with-wietse-venema-creator-of-postfix-and-tcp-wrapper/
+					},
+					{
+						title: Interview with Wietse Venema Postfix open source mail server - lessons learned and recent developments | fosdem.org
+						url: https://archive.fosdem.org/2014/interviews/2014-wietse-venema/
+					}
+				]
+			}
+		]
+		related:
+		[
+			{
+				title: Mail (MX) Server Survey | securityspace.com
+				url: http://www.securityspace.com/s_survey/data/man.201711/mxsurvey.html
+			},
+			{
+				title: The Postfix Home Page
+				url: http://www.postfix.org/
+			},
+			{
+				title: Postfix Source Code
+				url: http://postfix.imar.ro/postfix-release/
+			}
+		]
 	}
 
 ]
