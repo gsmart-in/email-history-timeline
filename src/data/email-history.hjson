@@ -147,6 +147,7 @@
 		
 		For those unaware, RFC actually stands for ‘Request for Comments’ and was named as such to encourage discussion within the industry. Once it has been discussed and edited, the final RFC then becomes the standard. 
 		'''
+		people:[]
 		related:
 		[
 			{
@@ -248,6 +249,7 @@
 		'''
 		SMTP is an Internet standard for email transmission. The protocol is defined by  RFC 821 SMTP protocol was later enhanced in 2008 by  RFC 5321 . SMTP is generally used to send messages from a mail client to a mail server.
 		'''
+		people:[]
 		related:
 		[
 			{
@@ -327,6 +329,7 @@
 
 		POP1 was specified in RFC 918 (1984) .The current and most recent version of Post office Protocol in use, is POP3 RFC 1939 (1996)
 		'''
+		people:[]
 		related:
 		[
 			{
@@ -547,6 +550,7 @@
 		The first version of Microsoft Mail was released in 1988 for Mac OS, allowing users of Apple’s AppleTalk Networks to send messages to each other. In 1991, a second version was released for other platforms including DOS and Windows, which laid the groundwork for Microsoft’s later Outlook and Exchange email systems.
 		
 		'''
+		people:[]
 		related:
 		[
 			{
@@ -562,6 +566,7 @@
 		'''
 		The first release of Lotus Notes email software. 35,000 copies are sold in the first year.
 		'''
+		people:[]
 		related:
 		[
 			{
@@ -1093,6 +1098,301 @@ Hotmail was bought by Microsoft in 1997  for a reported $400 million, rebranded 
 			{
 				title: Postfix Source Code
 				url: http://postfix.imar.ro/postfix-release/
+			}
+		]
+	},
+	{
+		year: 1999
+		title: FastMail
+		description:
+		'''
+		FastMail is a web based email service offering premium paid email accounts. FastMail was founded in 1999 by Rob Mueller, Bruce Davey, and Jeremy Howard.The company was acquired by Opera Software in 2010. On 26 September 2013, FastMail announced that it had split from Opera and became a privately held independent company.
+FastMail continues to operate one of the longest operating premium email services, with offerings of better security, privacy and speed to its email users.
+		'''
+		related:
+		[
+			{
+				title: FastMail - Wikipedia
+				url:https://en.wikipedia.org/wiki/FastMail
+			},
+			{
+				url: https://fastmail.blog/2010/05/03/fastmail-sale-to-opera-the-story-from-one-of-the-owners/
+				title: FastMail sale to Opera: the story from one of the owners | fastmail.blog
+			},
+			{
+				url: https://www.fastmail.com/about/company.html
+				title: About FastMail
+			}
+		]
+	},
+	{
+		year: 2001
+		title: SpamAssassin
+		description:
+		'''
+		SpamAssassin is a computer program used for e-mail spam filtering. SpamAssassin comes with a large set of rules which are applied to determine whether an email is spam or not. SpamAssassin spam-filtering system was first uploaded to SourceForge.net on April 20, 2001 by creator Justin Mason. In 2004 the project became an Apache Software Foundation project and later officially renamed to Apache SpamAssassin.
+		'''
+		people:
+		[
+			{
+				name: Justin Mason 
+				photo: http://jmason.org/images/fractalvan.jpg
+				bio:
+				'''
+				Before the SpamAssassin explosion, Justin was working at Netnote, hacking on the Webnote, which originally was a low-cost internet access device. Previously, Justin was the IONA sysadmin for four years or so, right when they started up. 
+				'''
+				bio_url: http://jmason.org/home/index.html,
+				more_info:
+				[
+					{
+						title: taint.org: Justin Mason's Weblog
+						url: http://taint.org/
+					},
+					{
+						title: Justin Mason | LinkedIn
+						url: https://www.linkedin.com/in/jmason/
+					}
+				]
+			}
+		],
+		related:
+		[
+			{
+				title: Apache SpamAssassin
+				url: https://spamassassin.apache.org/
+			},
+			{
+				title: Apache SpamAssassin - Wikipedia
+				url: https://en.wikipedia.org/wiki/Apache_SpamAssassin
+			},
+			{
+				title: SpamAssassin Prehistory
+				url: https://spamassassin.apache.org/old/prehistory/index.html
+			}
+		]
+	},
+	{
+		year:2002
+		title: Dovecot mail server
+		description:
+		'''
+		Dovecot is an open-source IMAP and POP3 server for Linux/UNIX-like systems, written primarily with security in mind. Timo Sirainen originated Dovecot project in 2002. Dovecot developers primarily aim to produce a lightweight, fast and easy-to-set-up open-source mailserver. Dovecot is the most popular IMAP server as of 2019
+		'''
+		people:
+		[
+			{
+				name: Timo Sirainen
+				photo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Timo_Sirainen.jpg/440px-Timo_Sirainen.jpg
+				bio:
+				'''
+				Timo Sirainen, born 1979, is a Finnish programmer also known under the handles "cras" and "tss". Sirainen is the original author of the IRC-client Irssi and the POP/IMAP server Dovecot. 
+				'''
+				bio_url: https://en.wikipedia.org/wiki/Timo_Sirainen
+				more_info:
+				[
+					{
+						title: Timo Sirainen - Wikipedia
+						url: https://en.wikipedia.org/wiki/Timo_Sirainen
+					},
+					{
+						title: Timo Sirainen - tss.iki.fi
+						url: http://tss.iki.fi/
+					},
+					{
+						title: Timo Sirainen - LinkedIn
+						url: https://www.linkedin.com/in/sirainen/
+					},
+					{
+						title: Timo Sirainen: Dovecot - Youtube.com
+						title: https://www.youtube.com/watch?v=mX-fOEaion4
+					}
+				]
+			}
+		]
+		related:
+		[
+			{
+				title: Open email survey 2019
+				url: http://www.openemailsurvey.org/
+			},
+			{
+				title: Dovecot (software) - Wikipedia
+				url: https://en.wikipedia.org/wiki/Dovecot_(software)
+			},
+			{
+				title: dovecot/core Dovecot mail server - GitHub.com
+				url: https://github.com/dovecot/core
+			},
+			{
+				title: dovecot.org
+				url: https://www.dovecot.org/
+			}
+		]
+	},
+	{
+		year:2002
+		title: Email comes to mobile devices. 
+		description:
+		'''
+		BlackBerry introduced the first of what we would think of as being the modern smart phone. This was a device that not only functioned as a telephone but also allowed for the sending and receiving of email and text messages as well as web browsing. One of the main focuses of the early BlackBerry's was to allow for mobile email. It was clear that this was a technology that was necessary since email had become so popular. Clearly people who were on the go needed a way to access their email without having to find a computer.
+		'''
+		related:
+		[
+			{
+				title: A short history of BlackBerry
+				url: https://web.archive.org/web/20131003165305/http://www.bbscnw.com/a-short-history-of-the-blackberry.php
+			},
+			{
+				title: Research In Motion history (pdf)
+				url: http://www.blackberry.com/select/get_the_facts/pdfs/rim/rim_history.pdf
+			},
+			{
+				title: BlackBerry - Wikipedia
+				url: https://en.wikipedia.org/wiki/BlackBerry
+			}
+		]
+	},
+	{
+		year: 2004
+		title: Gmail
+		description:
+		'''
+		The idea for Gmail was developed by Paul Buchheit  starting 2001 several years before it was announced to the public. The project was known by the code name Caribou. By early 2004, Google employees were using it an an internal application to access email.
+
+		Gmail was announced to the public by Google on April 1, 2004 as a limited beta release. Gmail exited the beta status on July 7, 2009
+
+		Gmail has a search-oriented interface and a "conversation view" which makes it easy to navigate an email thread. Better user experience and superior spam filtering helped Gmail grow fast to be one of the most popular email platforms. As of July 2017, Gmail has more than 1.2 billion active users.
+		'''
+		people:
+		[
+			{
+				name: Paul Buchheit
+				photo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Paul_Buchheit.jpg/400px-Paul_Buchheit.jpg
+				bio:
+				'''
+				Paul Buchheit was the creator and lead developer of Gmail. He developed the original prototype of Google AdSense as part of his work on Gmail. He also suggested Google's former company motto "Don't be evil" 
+				'''
+				bio_url: https://en.wikipedia.org/wiki/Paul_Buchheit
+				more_info:
+				[
+					{
+						title: Paul Buchheit - Wikipedia
+						url: https://en.wikipedia.org/wiki/Paul_Buchheit
+					},
+					{
+						title: How Gmail happened: The inside story, as revealed by creator Paul Buchheit | techinasia.com
+						url: https://www.techinasia.com/gmail-happened-story
+					},
+					{
+						title: Paul Buchheit | Twitter
+						url: https://twitter.com/paultoo
+					},
+					{
+						title: Brex Interview with Gmail Creator Paul Buchheit
+						url: https://www.youtube.com/watch?v=bZ4SUDlMBxU
+					}
+				]
+			}
+		]
+		related:
+		[
+			{
+				title: Google Gets the Message, Launches Gmail - googlepress.blogspot.com
+				url: https://googlepress.blogspot.com/2004/04/google-gets-message-launches-gmail.html
+			},
+			{
+				title: Google Apps is out of beta | googleblog.blogspot.com
+				url: https://googleblog.blogspot.com/2009/07/google-apps-is-out-of-beta-yes-really.html
+			},
+			{
+				title: How Gmail Happened: The Inside Story of Its Launch 10 Years Ago
+				url: http://time.com/43263/gmail-10th-anniversary/
+			},
+			{
+				title: History of Gmail - Wikipedia
+				url: https://en.wikipedia.org/wiki/History_of_Gmail
+			}
+		]
+	},
+	{
+		year: 2004
+		title: Mozilla Thunderbird 
+		description:
+		'''
+		Early in the 2000s, Mozilla was enjoying popularity thanks to their Firefox browser. For users of this browser, there was a need for an accompanying mail client and this led to the production of the open-source, cross-platform Mozilla Thunderbird. Version 1.0 was released towards the end of December in this year and it hit the magical one million download mark within just ten days. 
+		Thunderbird is still one of the most popular email clients even as more people shifting to web based email clients.
+
+		'''
+		related:
+		[
+			{
+				title: Thunderbird — Software made to make email easier. — Mozilla
+				url: https://www.thunderbird.net/en-US/
+			},
+			{
+				title: Mozilla Thunderbird - Wikipedia
+				url: https://en.wikipedia.org/wiki/Mozilla_Thunderbird
+			},
+			{
+				title: Mozilla: Open-source Thunderbird getting new look, better Gmail support, encryption
+				url: https://www.zdnet.com/article/mozilla-open-source-thunderbird-getting-new-look-better-gmail-support-encryption/
+			}
+		]
+	},
+	{
+		year:2004
+		title: DKIM standard for associating email to domain
+		description:
+		'''
+		DomainKeys Identified Mail (DKIM) permits a person, role, or
+   organization that owns the signing domain to claim some
+   responsibility for a message by associating the domain with the
+   message.
+	DKIM allows the receiver to check that an email claimed to have come from a specific domain was indeed authorized by the owner of that domain. This is a measure to prevent email spoofing, a technique often used in phishing and email spam.
+	Related RFCs: RFC 6376, RFC 8301 and RFC 8463.
+
+		'''
+		related:
+		[
+			{
+				title: DomainKeys Identified Mail - Wikipedia
+				url: https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail
+			},
+			{
+				title: DomainKeys Identified Mail (DKIM)
+				url: http://www.dkim.org/
+			},
+			{
+				title: RFC 6376 - DomainKeys Identified Mail (DKIM) Signatures - IETF Tools
+				url: https://tools.ietf.org/html/rfc6376
+			}
+		]
+	},
+	{
+		year: 2005
+		title: Sender Policy Framework
+		description:
+		'''
+		The first email standard to attempt to fight the deluge of spam by verifying senders was published after a five-year development. Sender Policy Framework was then implemented by a variety of anti-spam programs. A standard of authentication to attempt to prevent email spoofing and phishing was also released called DomainKeys Identified Mail (DKIM).
+
+		The first public mention of the concept was in 2000 but went mostly unnoticed. SPF allows the receiver to check that an email claiming to come from a specific domain comes from an IP address authorized by that domain's administrators. The list of authorized sending hosts and IP addresses for a domain is published in the DNS records for that domain.
+
+		RFC 7208 is the standard for SPF
+
+		'''
+		related:
+		[
+			{
+				title: Sender Policy Framework - Wikipedia
+				url: https://en.wikipedia.org/wiki/Sender_Policy_Framework
+			},
+			{
+				title: Email Authentication: Sender Policy Framework (SPF) - it.umn.edu
+				url: https://it.umn.edu/email-authentication-sender-policy
+			},
+			{
+				title: RFC 7208 - Sender Policy Framework (SPF) for Authorizing Use of Domains in Email
+				url: https://tools.ietf.org/html/rfc7208
 			}
 		]
 	}
