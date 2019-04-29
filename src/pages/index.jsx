@@ -8,6 +8,9 @@ import { graphql } from "gatsby"
 
 const IndexPage =  ({data}) => (
 		<Layout>
+    <div>
+    <span class="tag is-warning is-medium">Draft</span> 
+    </div>
 		<h1 class="title">History and TimeLine of Email</h1>
     <Intro/>
 

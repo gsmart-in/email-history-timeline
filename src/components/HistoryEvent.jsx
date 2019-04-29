@@ -47,15 +47,19 @@ export default class HistoryEvent extends React.Component
 			        </div>
 			        <div class="columns">
 			        <div class="column is-full">
-			        <div><a href="javascript:void(0);" onClick={this.toggleMoreInfo.bind(this)}>more info</a></div>
-			        {this.state.showMoreInfo &&
-					<ul>
-			        {this.props.evt.related && this.props.evt.related.map(link => (
-			        	<li>
-			        	<a class="is_small" href={link.url}>{link.title}</a>
-			        	</li>
-			        ))}
-			        </ul>
+			        {this.props.evt.related &&
+				        <div>
+				        <div><a href="javascript:void(0);" onClick={this.toggleMoreInfo.bind(this)}>more info</a></div>
+					        {this.state.showMoreInfo &&
+							<ul>
+					        {this.props.evt.related && this.props.evt.related.map(link => (
+					        	<li>
+					        	<a class="is_small" href={link.url}>{link.title}</a>
+					        	</li>
+					        ))}
+					        </ul>
+					    	}
+				    	</div>
 			    	}
 			        </div>
 			        </div>

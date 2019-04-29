@@ -48,6 +48,14 @@
 			{
 				title: The history of email - nethistory.info
 				url: http://www.nethistory.info/History%20of%20the%20Internet/email.html
+			},
+			{
+				title: The First Email Message of Ray Tomlinson
+				url: https://history-computer.com/Internet/Maturing/Tomlinson.html
+			},
+			{
+				title: The First Network Email - A History from Ray Tomlinson (pdf)
+				url: https://www.raytheon.com/sites/default/files/news/rtnwcm/groups/public/documents/content/rtn12_tomlinson_email.pdf
 			}
 		]
 	},
@@ -95,7 +103,7 @@
 		related:
 		[
 			{
-				title: The Origins of E-mail
+				title: The Origins of Email
 				url: https://cs.stanford.edu/people/eroberts/courses/soco/projects/1999-00/internet/email.html
 			},
 			{
@@ -119,7 +127,7 @@
 				bio:
 				'''
 				 Abhay Bhushan obtained his B.Tech. degree in Electrical Engineering from IIT Kanpur in 1965 following which he went to the Massachusetts Institute of Technology to pursue Masters.
-				 Abhay Bhushan is credited with authoring the File Transfer Protocol (FTP) and early versions of e-mail protocols.
+				 Abhay Bhushan is credited with authoring the File Transfer Protocol (FTP) and early versions of email protocols.
 				'''
 				bio_url: https://dora.iitk.ac.in/dora/abhay-bhushan-profile
 				more_info:
@@ -134,6 +142,22 @@
 					}
 				]
 			}
+		]
+		related:
+		[
+			{
+				url: https://www.goodreads.com/book/show/281818.Where_Wizards_Stay_Up_Late
+				title: Where Wizards Stay Up Late: The Origins of the Internet (Katie Hafner and Matthew Lyon) (Book)
+			},
+			{
+				title: Request For Comments - RFC743
+				url: https://www.irt.org/rfc/rfc743.htm
+			},
+			{
+				title: Survey of FTP mail and MLFL - RFC 751
+				url: https://tools.ietf.org/html/rfc751
+			}
+
 		]
 
 	},
@@ -166,7 +190,7 @@
 				url: https://en.wikipedia.org/wiki/Email_address
 			},
 			{
-				title: Internet E-mail address format (RFC 822) explained
+				title: Internet Email address format (RFC 822) explained
 				url: http://jkorpela.fi/rfc/822addr.html
 			}
 		]
@@ -286,7 +310,7 @@
 		title: Post Office Protocol
 		description:
 		'''
-		Post Office Protocol (POP) is an Internet standard protocol used by e-mail clients to retrieve e-mail from a mail server. POP version 3 (POP3) is the version in common use.
+		Post Office Protocol (POP) is an Internet standard protocol used by email clients to retrieve email from a mail server. POP version 3 (POP3) is the version in common use.
 
 		POP1 was specified in RFC 918 (1984) . The current and most recent version of Post office Protocol in use, is POP3 RFC 1939 (1996)
 		'''
@@ -312,7 +336,7 @@
 		description:
 		'''
 		IMAP was designed by Mark Crispin in 1986 as a remote access mailbox protocol, in contrast to the widely used POP, a protocol for simply retrieving the contents of a mailbox. IMAP was designed with the goal of permitting complete management of an email box by multiple email clients, therefore clients generally leave messages on the server until the user explicitly deletes them. 
-		Virtually all modern e-mail clients and servers support IMAP, which along with the earlier POP3 (Post Office Protocol) .The current and latest RFC of IMAP being  RFC 3501 (2003) 
+		Virtually all modern email clients and servers support IMAP, which along with the earlier POP3 (Post Office Protocol) .The current and latest RFC of IMAP being  RFC 3501 (2003) 
 		'''
 		people:
 		[
@@ -445,7 +469,7 @@
 				photo: https://www.ithistory.org/sites/default/files/honor-roll/Steve%20Dorner.jpg
 				bio:
 				'''
-				An American software engineer, he developed the Eudora e-mail client in 1988 as a part of his work as a staff member at the University of Illinois at Urbana-Champaign. 
+				An American software engineer, he developed the Eudora email client in 1988 as a part of his work as a staff member at the University of Illinois at Urbana-Champaign. 
 				'''
 				bio_url: https://www.ithistory.org/honor-roll/mr-steve-dorner
 				more_info:
@@ -551,7 +575,7 @@
 	},
 	{
 		year: 1991
-		title: First E-mail From Space
+		title: First Email From Space
 		description:
 		'''
 		Astronauts Shannon Lucid and James C. Adamson sent the first email from space on a Macintosh Portable: “Hello Earth! Greetings from the STS-43 Crew. This is the first AppleLink from space. Having a GREAT time, wish you were here,...send cryo and RCS! Hasta la vista, baby,...we'll be back!”
@@ -559,7 +583,7 @@
 		related:
 		[
 			{
-				title: First E-mail From Space Is Sent from a Mac Portable | computinghistory.org.uk
+				title: First Email From Space Is Sent from a Mac Portable | computinghistory.org.uk
 				url: http://www.computinghistory.org.uk/det/6115/First-E-mail-From-Space-Is-Sent-from-a-Mac-Portable/
 			},
 			{
@@ -692,7 +716,7 @@ Created by Nathaniel Borenstein and Ned Freed, it was the former who sent the fi
 				photo: http://www.guppylake.com/~nsb/images/current.jpg
 				bio:
 				'''
-				Nathaniel Borenstein is a scientist/programmer/inventor/entrepreneur who has been involved in Internet-related innovations since 1980, specializing in e-mail technology, human-computer interaction, and electronic commerce.
+				Nathaniel Borenstein is a scientist/programmer/inventor/entrepreneur who has been involved in Internet-related innovations since 1980, specializing in email technology, human-computer interaction, and electronic commerce.
 				'''
 				bio_url:http://www.guppylake.com/~nsb/
 				related:
@@ -724,7 +748,7 @@ Created by Nathaniel Borenstein and Ned Freed, it was the former who sent the fi
 		related:
 		[
 			{
-				title: The MIME guys: How two Internet gurus changed e-mail forever
+				title: The MIME guys: How two Internet gurus changed email forever
 				url: https://www.networkworld.com/article/2199390/the-mime-guys--how-two-internet-gurus-changed-e-mail-forever.html
 			},
 			{
@@ -894,7 +918,7 @@ Created by Nathaniel Borenstein and Ned Freed, it was the former who sent the fi
 		related:
 		[
 			{
-				title: The Mutt E-Mail Client
+				title: The Mutt Email Client
 				url: http://www.mutt.org/
 			},
 			{
@@ -933,7 +957,7 @@ Dave Rand and Paul Vixie, had started keeping a list of IP addresses which had s
 	},
 	{
 		year: 1996
-		title: Microsoft releases Internet Mail and News 1.0
+		title: Microsoft Internet Mail and News 1.0
 		description:
 		'''
 		Version 1.0 was released as Microsoft Internet Mail and News in 1996 following the Internet Explorer 3 release. In 1997 the app was changed and renamed as Outlook Express and bundled with Internet Explorer 4. Outlook Express 4 could run on Mac System 7, OS 8, and OS 9 as well as Microsoft platforms. The last version of Outlook express was version 6 included with Windows XP
@@ -1038,7 +1062,7 @@ Dave Rand and Paul Vixie, had started keeping a list of IP addresses which had s
 		title: Becky! - email client
 		description:
 		'''
-		Becky! Internet Mail is an e-mail client used on the Microsoft Windows operating systems. Becky! achieved early success in East Asia due to good support for CJKV ( Chinese, Japanese, Korean, Vietnamese ) characters and its ability to handle many languages has created interest in Europe, as evidenced by the translations to French and German by volunteers. Becky! was developed by the Japanese company RimArts and was first released in 1996. That version was rewritten in the early 2000s and Becky! Version 2 was released in 2004 and is still the flagship product, receiving periodic updates.
+		Becky! Internet Mail is an email client used on the Microsoft Windows operating systems. Becky! achieved early success in East Asia due to good support for CJKV ( Chinese, Japanese, Korean, Vietnamese ) characters and its ability to handle many languages has created interest in Europe, as evidenced by the translations to French and German by volunteers. Becky! was developed by the Japanese company RimArts and was first released in 1996. That version was rewritten in the early 2000s and Becky! Version 2 was released in 2004 and is still the flagship product, receiving periodic updates.
 		'''
 		related:
 		[
@@ -1077,7 +1101,7 @@ Dave Rand and Paul Vixie, had started keeping a list of IP addresses which had s
 	},
 	{
 		year: 1998
-		title: You’ve Got Mail movie
+		title: You’ve Got Mail - movie
 		description:
 		'''
 		The romantic comedy You’ve Got Mail, starring Meg Ryan and Tom Hanks, hit theaters in 1998. Kathleen and Joe used AOL software to connect to the Internet. They were both using version 4.0 which was in beta testing mode when the film was being made. All of Joe and Kathleen's emails were put on the movie's official website.
@@ -1178,7 +1202,7 @@ FastMail continues to operate one of the longest operating premium email service
 		title: SpamAssassin
 		description:
 		'''
-		SpamAssassin is a computer program used for e-mail spam filtering. SpamAssassin comes with a large set of rules which are applied to determine whether an email is spam or not. SpamAssassin spam-filtering system was first uploaded to SourceForge.net on April 20, 2001 by creator Justin Mason. In 2004 the project became an Apache Software Foundation project and later officially renamed to Apache SpamAssassin.
+		SpamAssassin is a computer program used for email spam filtering. SpamAssassin comes with a large set of rules which are applied to determine whether an email is spam or not. SpamAssassin spam-filtering system was first uploaded to SourceForge.net on April 20, 2001 by creator Justin Mason. In 2004 the project became an Apache Software Foundation project and later officially renamed to Apache SpamAssassin.
 		'''
 		people:
 		[
@@ -1366,7 +1390,7 @@ FastMail continues to operate one of the longest operating premium email service
 		description:
 		'''
 		Early in the 2000s, Mozilla was enjoying popularity thanks to their Firefox browser. For users of this browser, there was a need for an accompanying mail client and this led to the production of the open-source, cross-platform Mozilla Thunderbird. Version 1.0 was released towards the end of December in this year and it hit the magical one million download mark within just ten days. 
-		Thunderbird is still one of the most popular email clients even as more people shifting to web based email clients.
+		Thunderbird is still one of the most popular email clients even as more people shifting to web-based email clients.
 
 		'''
 		related:
