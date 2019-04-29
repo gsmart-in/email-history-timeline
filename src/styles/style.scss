@@ -1,2 +1,50 @@
 @charset "utf-8";
 @import "~bulma/bulma";
+
+div.event_box
+{
+	padding-bottom: 3rem;
+	padding-left:21px;
+	border-left:1px solid #ccc;
+	
+
+	& .time_dot {
+	  height: 11px;
+	  width: 11px;
+	  border:2px solid #666;
+	  border-radius: 50%;
+	  display: inline-block;
+	  background-color: white;
+	}
+	
+
+	& h2.year.subtitle
+	{
+		padding-top:8px;
+	}
+
+	& h2.year
+	{
+		position:relative;
+
+		& .time_dot 
+		{
+			position:absolute;
+			top:17px;
+			left:-27px;
+		}
+	}
+}
+.ref_link
+{
+	padding-right:20px;
+	& > a
+	{
+		font-size: 0.8rem;
+		color: #999;
+		&:hover
+		{
+			text-decoration: underline;
+		}
+	}
+}

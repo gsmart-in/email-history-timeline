@@ -2,6 +2,18 @@ import React from "react"
 
 export default class Person extends React.Component
 {
+	constructor(props) 
+	{
+    	super(props);
+    	this.state =
+    	{
+    		showMoreInfo:false
+    	};
+	}
+	toggleMoreInfo()
+	{
+		this.setState((state)=>({showMoreInfo:!state.showMoreInfo}));
+	}
 	render()
 	{
 	    return (
@@ -19,8 +31,20 @@ export default class Person extends React.Component
 				</div>
 				<div class="content is-small">
 					{this.props.person.bio}
+					<a class="is-size-6" href={this.props.person.bio_url} target="_blank" >&rarr;</a>
+					<div><a href="javascript:void(0);" onClick={this.toggleMoreInfo.bind(this)}>more info</a></div>
+					{this.state.showMoreInfo &&
+					<ul>
+					{this.props.person.more_info.map(link => (
+						<li>
+						<a class="is_small" href={link.url}>{link.title}</a>
+						</li>
+					))}
+					</ul>
+					}
 				</div>
 				</div>
+				
 				</div>
 	    	)
 	}

@@ -30,6 +30,15 @@ query {
           name
           photo
           bio
+          bio_url
+          more_info{
+            title
+            url
+          }
+        }
+        related{
+          title
+          url
         }
       }
     }

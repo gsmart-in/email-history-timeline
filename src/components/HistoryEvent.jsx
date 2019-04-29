@@ -11,10 +11,11 @@ export default class HistoryEvent extends React.Component
 	render()
 	{
 	    return (
-	    	<div>
+	    	<div class="event_box">
+	    	
 			<div class="columns is-mobile">
 			    <div class="column is-2-mobile is-1-tablet">
-			        <h2 class="subtitle">{this.props.evt.year}</h2>
+			        <h2 class="year subtitle"><div class="time_dot"></div> {this.props.evt.year}</h2>
 			    </div>
 			    <div class="column">
 			        <h2 class="title">{this.props.evt.title}</h2>
@@ -28,13 +29,21 @@ export default class HistoryEvent extends React.Component
 			         {col_text}   
 			        </div>
 			        ))}
+					{this.props.evt.people &&
+						<People people={this.props.evt.people}></People>
+					}
 			        </div>
+			        <div class="columns">
+			        <div class="column is-full">
+			        {this.props.evt.related && this.props.evt.related.map(link => (
+			        	<span class="ref_link"><a href={link.url}>{link.title}</a></span>
+			        ))}
+			        </div>
+			        </div>
+			        
 			    </div>
 			</div>
-			{this.props.evt.people &&
-				<People people={this.props.evt.people}></People>
-			}
-			
+
 			</div>
 	    )
 	}

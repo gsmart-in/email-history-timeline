@@ -147,7 +147,6 @@
 		
 		For those unaware, RFC actually stands for ‘Request for Comments’ and was named as such to encourage discussion within the industry. Once it has been discussed and edited, the final RFC then becomes the standard. 
 		'''
-		people:[]
 		related:
 		[
 			{
@@ -171,7 +170,7 @@
 				url: http://jkorpela.fi/rfc/822addr.html
 			}
 		]
-	}
+	},
 	{
 		year:1975
 		title: MSG - Reply, forward emails
@@ -329,7 +328,6 @@
 
 		POP1 was specified in RFC 918 (1984) .The current and most recent version of Post office Protocol in use, is POP3 RFC 1939 (1996)
 		'''
-		people:[]
 		related:
 		[
 			{
@@ -359,7 +357,7 @@
 			{
 				name: Mark Crispin
 				photo: https://www.computerhope.com/people/pictures/mark_crispin.jpg
-				description:
+				bio:
 				'''
 				From 1977 to 1988, he was a Systems Programmer at Stanford University. He developed the first production PDP-10 32-bit address ARPAnet NCP for the WAITS operating system, and wrote or rewrote most of the WAITS ARPAnet protocol suite.
 				'''
@@ -612,36 +610,38 @@
 		'''
 		people:
 		[
-			name: Philip Zimmermann
-			photo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PRZ_closeup_cropped.jpg/440px-PRZ_closeup_cropped.jpg
-			bio:
-			'''
-			Before founding PGP Inc., Zimmermann was a software engineer with more than 20 years of experience, specializing in cryptography and data security, data communications, and real-time embedded systems. 
-			'''
-			bio_url: https://www.internethalloffame.org/official-biography-philip-zimmermann
-			more_info:
-			[
-				{
-					url: https://www.internethalloffame.org/official-biography-philip-zimmermann
-					title: Philip Zimmermann | Internet Hall of Fame
-				},
-				{
-					url: https://philzimmermann.com
-					title: philzimmermann.com
-				},
-				{
-					url: https://www.youtube.com/watch?v=59sWJT6uso0
-					title: Phil Zimmermann: "Communications Security" | Talks at Google
-				},
-				{
-					title: Creator of PGP, Phil Zimmermann Talks At Bitcoin Wednesday
-					url: https://www.youtube.com/watch?v=M8z0Nx8svC4
-				},
-				{
-					title: Interview: Cryptographer Phil Zimmermann on encrypted email | computing.co.uk
-					url: https://www.computing.co.uk/ctg/interview/3034069/interview-cryptographer-phil-zimmermann-on-encrypted-email-and-defeating-us-export-controls
-				}
-			] 
+			{
+				name: Philip Zimmermann
+				photo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PRZ_closeup_cropped.jpg/440px-PRZ_closeup_cropped.jpg
+				bio:
+				'''
+				Before founding PGP Inc., Zimmermann was a software engineer with more than 20 years of experience, specializing in cryptography and data security, data communications, and real-time embedded systems. 
+				'''
+				bio_url: https://www.internethalloffame.org/official-biography-philip-zimmermann
+				more_info:
+				[
+					{
+						url: https://www.internethalloffame.org/official-biography-philip-zimmermann
+						title: Philip Zimmermann | Internet Hall of Fame
+					},
+					{
+						url: https://philzimmermann.com
+						title: philzimmermann.com
+					},
+					{
+						url: https://www.youtube.com/watch?v=59sWJT6uso0
+						title: Phil Zimmermann: "Communications Security" | Talks at Google
+					},
+					{
+						title: Creator of PGP, Phil Zimmermann Talks At Bitcoin Wednesday
+						url: https://www.youtube.com/watch?v=M8z0Nx8svC4
+					},
+					{
+						title: Interview: Cryptographer Phil Zimmermann on encrypted email | computing.co.uk
+						url: https://www.computing.co.uk/ctg/interview/3034069/interview-cryptographer-phil-zimmermann-on-encrypted-email-and-defeating-us-export-controls
+					}
+				] 
+		   }
 		]
 		related:
 		[
@@ -780,8 +780,7 @@ Created by Nathaniel Borenstein and Ned Freed, it was the former who sent the fi
 		title:  Web Mail
 		description:
 		'''
-		The first Web Mail implementation was developed at CERN in 1993 by Phillip Hallam-Baker
-		However this project was not developed further.
+		The first Web Mail implementation was developed at CERN in 1993 by Phillip Hallam-Baker. However this project was not developed further.
 		'''
 		people:
 		[
@@ -928,9 +927,7 @@ Dave Rand and Paul Vixie, had started keeping a list of IP addresses which had s
 		title: Hotmail
 		description:
 		'''
-		1996 saw the launch of one of the first popular webmail email services called HoTMaiL developed by Sabeer Bhatia and Jack Smith. It was one of the first email services not tied to a particular ISP and adopted new HTML-based email formatting – hence the stylising of the brand name. By December 1997, Hotmail reported to have more than 8.5 million subscribers.
-
-Hotmail was bought by Microsoft in 1997  for a reported $400 million, rebranded MSN Hotmail, then Windows Live Hotmail and replaced by Outlook.com in 2013.
+		1996 saw the launch of one of the first popular webmail email services called HoTMaiL developed by Sabeer Bhatia and Jack Smith. It was one of the first email services not tied to a particular ISP and adopted new HTML-based email formatting – hence the stylising of the brand name. By December 1997, Hotmail reported to have more than 8.5 million subscribers. Hotmail was bought by Microsoft in 1997  for a reported $400 million, rebranded MSN Hotmail, then Windows Live Hotmail and replaced by Outlook.com in 2013.
 		'''
 		people:
 		[
@@ -1257,9 +1254,7 @@ FastMail continues to operate one of the longest operating premium email service
 		title: Gmail
 		description:
 		'''
-		The idea for Gmail was developed by Paul Buchheit  starting 2001 several years before it was announced to the public. The project was known by the code name Caribou. By early 2004, Google employees were using it an an internal application to access email.
-
-		Gmail was announced to the public by Google on April 1, 2004 as a limited beta release. Gmail exited the beta status on July 7, 2009
+		The idea for Gmail was developed by Paul Buchheit  starting 2001 several years before it was announced to the public. The project was known by the code name Caribou. By early 2004, Google employees were using it an an internal application to access email. Gmail was announced to the public by Google on April 1, 2004 as a limited beta release. Gmail exited the beta status on July 7, 2009
 
 		Gmail has a search-oriented interface and a "conversation view" which makes it easy to navigate an email thread. Better user experience and superior spam filtering helped Gmail grow fast to be one of the most popular email platforms. As of July 2017, Gmail has more than 1.2 billion active users.
 		'''
