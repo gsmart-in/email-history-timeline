@@ -109,7 +109,7 @@
 		title: MAIL & MLFL
 		description:
 		'''
-		Abhay Bhushan from MIT and colleagues proposed adding commands to FTP protocol  to provide standard network transport capabilities for email transmission. Basically the emails piggy backed on FTP.  FTP sent a separate copy of each email to each recipient, and provided the standard ARPANET email functionality until the early 1980's when the more efficient SMTP protocol was created.
+		Abhay Bhushan from MIT and colleagues proposed adding commands to FTP protocol  to provide standard network transport capabilities for email transmission. Basically, the emails piggybacked on FTP.  FTP sent a separate copy of each email to each recipient and provided the standard ARPANET email functionality until the early 1980's when the more efficient SMTP protocol was created.
 		'''
 		people:
 		[
@@ -143,7 +143,7 @@
 		title: Email Standards
 		description:
 		'''
-		At this point, it was obvious that there should be some standards how the emails are formatted and how the addresses are handled. So, there started Attempts to develop a standard for the email. The initial proposals were as extensions of the FTP protocol (RFC 469 and RFC 475) . RFC 561 “Standardizing Network Mail Headers”  proposes the common things such as the ‘to’ and ‘from’ fields. The standard proposes the separation of email payload metadata from email routing data. These proposals  later evolve in to RFC 733 (1977)  and RFC 822(1982).
+		At this point, it was obvious that there should be some standards about how the emails are formatted and how the addresses are handled. So, there started Attempts to develop a standard for the email. The initial proposals were as extensions of the FTP protocol (RFC 469 and RFC 475) . RFC 561 “Standardizing Network Mail Headers”  proposes common things such as the ‘to’ and ‘from’ fields. The standard proposes the separation of email payload metadata from email routing data. These proposals  later evolve into RFC 733 (1977)  and RFC 822(1982).
 		
 		For those unaware, RFC actually stands for ‘Request for Comments’ and was named as such to encourage discussion within the industry. Once it has been discussed and edited, the final RFC then becomes the standard. 
 		'''
@@ -200,44 +200,6 @@
 						url: http://www.ithistory.org/honor-roll/mr-john-vittal
 					}
 				]
-			}
-		]
-	},
-	{
-		year: 1976
-		title: Queen Elizabeth II sends an email message on ARPANET
-		description:
-		'''
-		In 1976, Queen Elizabeth II became the very first head of state to send an email on ARPANET with the username ‘HME2’. In a later interview, the account creator Peter Kirstein noted how she simply had to press a few buttons and the message was sent. As the man who bought the ARPANET to the UK, it was apt that he helped the Queen, three years after working at the University of London and setting up a network code. 
-		'''
-		people:
-		[
-			{
-				name: Peter Kirstein
-				photo: http://www0.cs.ucl.ac.uk/people/photos/P.Kirstein.gif
-				bio:
-				'''
-				In the early 70s, Professor Kirstein started the first European ARPANET node with transatlantic IP connectivity, and has been involved ever since with European and transatlantic collaborations on IP networking research
-				'''
-				bio_url: https://www.internethalloffame.org/official-biography-peter-kirstein
-				more_info:
-				[
-					{
-						title: Peter Kirstein | Internet Hall of Fame
-						url: https://internethalloffame.org/inductees/peter-kirstein
-					},
-					{
-						title: Peter T. Kirstein - Wikipedia
-						url: https://en.wikipedia.org/wiki/Peter_T._Kirstein
-					}
-				]
-			}
-		],
-		related:
-		[
-			{
-				title:How The Queen Of England Beat Everyone To The Internet
-				url: https://www.wired.com/2012/12/queen-and-the-internet/
 			}
 		]
 	},
@@ -326,7 +288,7 @@
 		'''
 		Post Office Protocol (POP) is an Internet standard protocol used by e-mail clients to retrieve e-mail from a mail server. POP version 3 (POP3) is the version in common use.
 
-		POP1 was specified in RFC 918 (1984) .The current and most recent version of Post office Protocol in use, is POP3 RFC 1939 (1996)
+		POP1 was specified in RFC 918 (1984) . The current and most recent version of Post office Protocol in use, is POP3 RFC 1939 (1996)
 		'''
 		related:
 		[
@@ -410,7 +372,7 @@
 		description:
 		'''
 		Elm is a text-based email client commonly found on Unix systems. It became popular as one of the first email clients to use a text user interface. The name elm originated from the phrase ELectronic Mail.
-		Dave Taylor developed elm while working for Hewlett-Packard. Development later passed to a team of volunteers. Other popular text-based email readers which followed elm and took it as an inspiration include Pine (1989) and Mutt (1995). elm slowly slipped in popularity and functionality, and it now sees relatively little use.
+		Dave Taylor developed elm while working for Hewlett-Packard. Development later passed to a team of volunteers. Other popular text-based email readers which followed elm and took it as inspiration include Pine (1989) and Mutt (1995). elm slowly slipped in popularity and functionality, and it now sees relatively little use.
 		
 		'''
 		people:
@@ -453,14 +415,6 @@
 			{
 				title: Linux elm command | computerhope.com
 				url: https://www.computerhope.com/unix/uelm.htm
-			},
-			{
-				url: https://en.wikipedia.org/wiki/Pine_(email_client)
-				title: Pine (email client) | Wikipedia
-			},
-			{
-				title: Why I still love Alpine for email at the Linux terminal | opensource.com
-				url: https://opensource.com/article/18/8/love-alpine
 			},
 			{
 				title: The Mutt E-Mail Client
@@ -572,6 +526,27 @@
 				url: https://sherpasoftware.com/blog/lotus-notes-history/
 			},
 
+		]
+	},
+	{
+		year: 1989
+		title: Pine Email Client
+		description:
+		'''
+		Pine is a free, text-based email client which was developed at the University of Washington. 
+		The first version was written in 1989 and announced to the public in March 1992. Source code was available for only the Unix version under a license written by the University of Washington.
+		Alpine(2007) is the rewrite of Pine.
+		'''
+		related:
+		[
+			{
+				url: https://en.wikipedia.org/wiki/Pine_(email_client)
+				title: Pine (email client) | Wikipedia
+			},
+			{
+				url: https://web.archive.org/web/20060104090620/http://www.washington.edu/pine/overview/project-history.html
+				title: Pine Project History - University of Washington | archive.org
+			}
 		]
 	},
 	{
@@ -780,7 +755,7 @@ Created by Nathaniel Borenstein and Ned Freed, it was the former who sent the fi
 		title:  Web Mail
 		description:
 		'''
-		The first Web Mail implementation was developed at CERN in 1993 by Phillip Hallam-Baker. However this project was not developed further.
+		The first Web Mail implementation was developed at CERN in 1993 by Phillip Hallam-Baker. However, this project was not developed further.
 		'''
 		people:
 		[
@@ -884,6 +859,59 @@ Created by Nathaniel Borenstein and Ned Freed, it was the former who sent the fi
 		]
 	},
 	{
+		year:1995
+		title:Mutt email client
+		description:
+		'''
+		Mutt is a text-based email client for Unix-like systems. It was originally written by Michael Elkins in 1995 and released under the GNU General Public License. New to Mutt were message scoring and threading capabilities. Support for fetching and sending email via various protocols such as POP3, IMAP and SMTP was added later. Mutt has hundreds of configuration directives and commands. It allows for changing all the key bindings and making keyboard macros for complex actions.
+		'''
+		people:
+		[
+			{
+				name: Michael Elkins
+				bio:
+				'''
+				Michael Elkins graduated with a B.S. in physics from Harvey Mudd College in 1993. His professional experience is in the areas of high-speed networking, network architecture, and network security. 
+				'''
+				bio_url: https://web.archive.org/web/19970613224326/http://www.cs.hmc.edu/~me/
+				more_info:
+				[
+					{
+						title: Michael Elkins - cs.hmc.edu | archive.org
+						url: https://web.archive.org/web/19970613224326/http://www.cs.hmc.edu/~me/
+					},
+					{
+						title: IETF Publications Data by Author Michael Elkins
+						url: http://www.arkko.com/tools/allstats/michaelelkins.html
+					},
+					{
+						title: Michael Elkins | LinkedIn
+						url: https://www.linkedin.com/in/michaelelkins/
+					}
+				]
+			}
+		]
+		related:
+		[
+			{
+				title: The Mutt E-Mail Client
+				url: http://www.mutt.org/
+			},
+			{
+				title: Mutt (email client) - Wikipedia
+				url: https://en.wikipedia.org/wiki/Mutt_(email_client)
+			},
+			{
+				title: Source Repository Mutt Project | gitlab.com
+				url: https://gitlab.com/muttmua/mutt
+			},
+			{
+				title: Switching to the Mutt Email Client
+				url: https://nullprogram.com/blog/2017/06/15/
+			}
+		]
+	},
+	{
 		year: 1996
 		title: Mail Abuse Prevention System
 		description:
@@ -905,7 +933,7 @@ Dave Rand and Paul Vixie, had started keeping a list of IP addresses which had s
 	},
 	{
 		year: 1996
-		title: Microsoft releases Internet Mail and News 1.0, a feature of its third release of Internet Explorer.
+		title: Microsoft releases Internet Mail and News 1.0
 		description:
 		'''
 		Version 1.0 was released as Microsoft Internet Mail and News in 1996 following the Internet Explorer 3 release. In 1997 the app was changed and renamed as Outlook Express and bundled with Internet Explorer 4. Outlook Express 4 could run on Mac System 7, OS 8, and OS 9 as well as Microsoft platforms. The last version of Outlook express was version 6 included with Windows XP
@@ -927,7 +955,7 @@ Dave Rand and Paul Vixie, had started keeping a list of IP addresses which had s
 		title: Hotmail
 		description:
 		'''
-		1996 saw the launch of one of the first popular webmail email services called HoTMaiL developed by Sabeer Bhatia and Jack Smith. It was one of the first email services not tied to a particular ISP and adopted new HTML-based email formatting – hence the stylising of the brand name. By December 1997, Hotmail reported to have more than 8.5 million subscribers. Hotmail was bought by Microsoft in 1997  for a reported $400 million, rebranded MSN Hotmail, then Windows Live Hotmail and replaced by Outlook.com in 2013.
+		1996 saw the launch of one of the first popular webmail email services called HoTMaiL developed by Sabeer Bhatia and Jack Smith. It was one of the first email services not tied to a particular ISP and adopted new HTML-based email formatting – hence the stylising of the brand name. By December 1997, Hotmail reported having more than 8.5 million subscribers. Hotmail was bought by Microsoft in 1997  for a reported $400 million, rebranded MSN Hotmail, then Windows Live Hotmail and replaced by Outlook.com in 2013.
 		'''
 		people:
 		[
@@ -968,7 +996,7 @@ Dave Rand and Paul Vixie, had started keeping a list of IP addresses which had s
 				photo: https://uploads-ssl.webflow.com/599e5bf08e3f0b0001988435/5b1a9e678f94e6fac60bfeff_jack.png
 				bio:
 				'''
-				Jack Smith worked at FirePower Systems Inc., a subsidiary of Canon Inc., where he designed integrated circuits for use in high performance PowerPC workstations, and invented and marketed the first web server accelerator card that boosted server performance significantly.
+				Jack Smith worked at FirePower Systems Inc., a subsidiary of Canon Inc., where he designed integrated circuits for use in high-performance PowerPC workstations, and invented and marketed the first web server accelerator card that boosted server performance significantly.
 				'''
 				bio_url:https://en.wikipedia.org/wiki/Jack_Smith_(Hotmail)
 				more_info:
@@ -1004,6 +1032,29 @@ Dave Rand and Paul Vixie, had started keeping a list of IP addresses which had s
 			}
 		]
 
+	},
+	{
+		year: 1996
+		title: Becky! - email client
+		description:
+		'''
+		Becky! Internet Mail is an e-mail client used on the Microsoft Windows operating systems. Becky! achieved early success in East Asia due to good support for CJKV ( Chinese, Japanese, Korean, Vietnamese ) characters and its ability to handle many languages has created interest in Europe, as evidenced by the translations to French and German by volunteers. Becky! was developed by the Japanese company RimArts and was first released in 1996. That version was rewritten in the early 2000s and Becky! Version 2 was released in 2004 and is still the flagship product, receiving periodic updates.
+		'''
+		related:
+		[
+			{
+				title: Becky! - Wikipedia
+				url: https://en.wikipedia.org/wiki/Becky!
+			},
+			{
+				title: Becky! Internet Mail | rimarts.co.jp
+				url: http://www.rimarts.co.jp/becky.htm
+			},
+			{
+				title: Becky! Internet Mail 2.60 Review | lifewire.com
+				url: https://www.lifewire.com/becky-internet-mail-windows-1174201
+			}
+		]
 	},
 	{
 		year: 1997
@@ -1103,8 +1154,8 @@ Dave Rand and Paul Vixie, had started keeping a list of IP addresses which had s
 		title: FastMail
 		description:
 		'''
-		FastMail is a web based email service offering premium paid email accounts. FastMail was founded in 1999 by Rob Mueller, Bruce Davey, and Jeremy Howard.The company was acquired by Opera Software in 2010. On 26 September 2013, FastMail announced that it had split from Opera and became a privately held independent company.
-FastMail continues to operate one of the longest operating premium email services, with offerings of better security, privacy and speed to its email users.
+		FastMail is a web-based email service offering premium paid email accounts. FastMail was founded in 1999 by Rob Mueller, Bruce Davey, and Jeremy Howard. The company was acquired by Opera Software in 2010. On 26 September 2013, FastMail announced that it had split from Opera and became a privately held independent company.
+FastMail continues to operate one of the longest operating premium email services, with offerings of better security, privacy, and speed to its email users.
 		'''
 		related:
 		[
@@ -1173,7 +1224,7 @@ FastMail continues to operate one of the longest operating premium email service
 		title: Dovecot mail server
 		description:
 		'''
-		Dovecot is an open-source IMAP and POP3 server for Linux/UNIX-like systems, written primarily with security in mind. Timo Sirainen originated Dovecot project in 2002. Dovecot developers primarily aim to produce a lightweight, fast and easy-to-set-up open-source mailserver. Dovecot is the most popular IMAP server as of 2019
+		Dovecot is an open source IMAP and POP3 server for Linux/UNIX-like systems, written primarily with security in mind. Timo Sirainen originated Dovecot project in 2002. Dovecot developers primarily aim to produce a lightweight, fast and easy-to-set-up open-source mail server. Dovecot is the most popular IMAP server as of 2019
 		'''
 		people:
 		[
@@ -1231,7 +1282,7 @@ FastMail continues to operate one of the longest operating premium email service
 		title: Email comes to mobile devices. 
 		description:
 		'''
-		BlackBerry introduced the first of what we would think of as being the modern smart phone. This was a device that not only functioned as a telephone but also allowed for the sending and receiving of email and text messages as well as web browsing. One of the main focuses of the early BlackBerry's was to allow for mobile email. It was clear that this was a technology that was necessary since email had become so popular. Clearly people who were on the go needed a way to access their email without having to find a computer.
+		BlackBerry introduced the first of what we would think of as being the modern smartphone. This was a device that not only functioned as a telephone but also allowed for the sending and receiving of email and text messages as well as web browsing. One of the main focuses of the early BlackBerry's was to allow for mobile email. It was clear that this was a technology that was necessary since email had become so popular. Clearly people who were on the go needed a way to access their email without having to find a computer.
 		'''
 		related:
 		[
@@ -1254,7 +1305,7 @@ FastMail continues to operate one of the longest operating premium email service
 		title: Gmail
 		description:
 		'''
-		The idea for Gmail was developed by Paul Buchheit  starting 2001 several years before it was announced to the public. The project was known by the code name Caribou. By early 2004, Google employees were using it an an internal application to access email. Gmail was announced to the public by Google on April 1, 2004 as a limited beta release. Gmail exited the beta status on July 7, 2009
+		The idea for Gmail was developed by Paul Buchheit  starting 2001 several years before it was announced to the public. The project was known by the code name Caribou. By early 2004, Google employees were using it as an internal application to access email. Gmail was announced to the public by Google on April 1, 2004 as a limited beta release. Gmail exited the beta status on July 7, 2009
 
 		Gmail has a search-oriented interface and a "conversation view" which makes it easy to navigate an email thread. Better user experience and superior spam filtering helped Gmail grow fast to be one of the most popular email platforms. As of July 2017, Gmail has more than 1.2 billion active users.
 		'''
@@ -1339,12 +1390,8 @@ FastMail continues to operate one of the longest operating premium email service
 		title: DKIM standard for associating email to domain
 		description:
 		'''
-		DomainKeys Identified Mail (DKIM) permits a person, role, or
-   organization that owns the signing domain to claim some
-   responsibility for a message by associating the domain with the
-   message.
-	DKIM allows the receiver to check that an email claimed to have come from a specific domain was indeed authorized by the owner of that domain. This is a measure to prevent email spoofing, a technique often used in phishing and email spam.
-	Related RFCs: RFC 6376, RFC 8301 and RFC 8463.
+		DomainKeys Identified Mail (DKIM) permits a person, role, or organization that owns the signing domain to claim some responsibility for a message by associating the domain with the
+   message. DKIM allows the receiver to check that an email claimed to have come from a specific domain was indeed authorized by the owner of that domain. This is a measure to prevent email spoofing, a technique often used in phishing and email spam. Related RFCs: RFC 6376, RFC 8301 and RFC 8463.
 
 		'''
 		related:
@@ -1388,6 +1435,61 @@ FastMail continues to operate one of the longest operating premium email service
 			{
 				title: RFC 7208 - Sender Policy Framework (SPF) for Authorizing Use of Domains in Email
 				url: https://tools.ietf.org/html/rfc7208
+			}
+		]
+	},
+	{
+		year: 2007
+		title: Alpine email client 
+		description:
+		'''
+		Alpine is a free software email client developed at the University of Washington. Alpine is  available under the Apache License. The name "Alpine" officially stands for Alternatively Licensed Program for Internet News and Email. University of Washington has also referred to it as "Apache Licensed Pine". Since January 2013, Eduardo Chappa, an active software developer formerly from the University of Washington, has released newer versions of Alpine from his site. 
+		'''
+		related:
+		[
+			{
+				title: Alpine (email client) - Wikipedia
+				url: https://en.wikipedia.org/wiki/Alpine_(email_client)
+			},
+			{
+				title: Alpine 2.21 Released
+				url: http://alpine.x10host.com/alpine/release/
+			},
+			{
+				title: re-alpine download | sourceforge.net
+				url: https://sourceforge.net/projects/re-alpine/
+			},
+			{
+				title: Pine Lives! Using Alpine with Gmail
+				url: http://8bitbatty.com/post/pine-lives-using-alpine-with-gmail/
+			},
+			{
+				title: Why I still love Alpine for email at the Linux terminal | opensource.com
+				url: https://opensource.com/article/18/8/love-alpine
+			}
+		]
+	},
+	{
+		year: 2014
+		title: Inbox by Gmail
+		description:
+		'''
+		Inbox by Gmail aimed to improve email productivity and organization through several key features. Bundles gathered emails of the same topic together, highlights surface key details from messages, and reminders, assists, and snooze functionality enabled users to control when specific information appears.  Inbox also had undo send feature, a "Smart Reply" feature that automatically generates short reply examples for certain emails and many more smart productivity features.
+		In September 2018, Google announced it would end the service in March 2019.  
+		'''
+		related:
+		[
+			{
+				url: https://en.wikipedia.org/wiki/Inbox_by_Gmail
+				title: Inbox by Gmail - Wikipedia
+			},
+			{
+				title: Here is the day Google's Inbox is going to die | mashable.com
+				url: https://mashable.com/article/gmail-inbox-shutdown/
+			},
+			{
+				title: Google Inbox was the Gmail we desperately needed -- but now it's dead | cnet.com
+				url: https://www.cnet.com/news/google-inbox-was-the-gmail-we-desperately-needed-but-now-its-dead/
 			}
 		]
 	}

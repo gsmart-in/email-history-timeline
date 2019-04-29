@@ -7,7 +7,6 @@
   "scripts": {
     "build": "gatsby build",
     "prebuild":"rm -rf ./.cache",
-    "postbuild":"cp -r ./public/* ./docs",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",

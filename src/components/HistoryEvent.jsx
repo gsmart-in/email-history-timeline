@@ -3,9 +3,21 @@ import People from "./people"
 
 export default class HistoryEvent extends React.Component
 {
+	constructor(props) 
+	{
+    	super(props);
+    	this.state =
+    	{
+    		showMoreInfo:false
+    	};
+	}	
 	get paragraphs()
 	{
 		return this.props.evt.description.split("\n").filter(Boolean);
+	}
+	toggleMoreInfo()
+	{
+		this.setState((state)=>({showMoreInfo:!state.showMoreInfo}));
 	}
 
 	render()
@@ -35,9 +47,16 @@ export default class HistoryEvent extends React.Component
 			        </div>
 			        <div class="columns">
 			        <div class="column is-full">
+			        <div><a href="javascript:void(0);" onClick={this.toggleMoreInfo.bind(this)}>more info</a></div>
+			        {this.state.showMoreInfo &&
+					<ul>
 			        {this.props.evt.related && this.props.evt.related.map(link => (
-			        	<span class="ref_link"><a href={link.url}>{link.title}</a></span>
+			        	<li>
+			        	<a class="is_small" href={link.url}>{link.title}</a>
+			        	</li>
 			        ))}
+			        </ul>
+			    	}
 			        </div>
 			        </div>
 			        

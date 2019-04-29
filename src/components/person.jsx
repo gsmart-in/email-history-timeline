@@ -21,12 +21,18 @@ export default class Person extends React.Component
 				<div class="card-content">
 				<div class="media">
 				    <div class="media-left">
+				    	{this.props.person.photo &&
 				        <figure class="image is-48x48" style={{maxWidth:'48px', overflow:'hidden'}}>
-				            <img src={this.props.person.photo} />
+				        	<a href={this.props.person.photo} target="_blank">
+				            <img src={this.props.person.photo} 
+				            alt={'photo of '+this.props.person.name }
+				            title={this.props.person.name}/>
+				            </a>
 				        </figure>
+				    	}
 				    </div>
 				    <div class="media-content">
-				        <h4 class="title is-5">{this.props.person.name}</h4>
+				        <h4 class="title is-5"><a  href={this.props.person.bio_url} target="_blank" >{this.props.person.name}</a></h4>
 				    </div>
 				</div>
 				<div class="content is-small">

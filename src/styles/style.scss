@@ -1,5 +1,9 @@
 @charset "utf-8";
 @import "~bulma/bulma";
+div.intro_box
+{
+	padding-bottom: 2rem;
+}
 
 div.event_box
 {
@@ -47,4 +51,9 @@ div.event_box
 			text-decoration: underline;
 		}
 	}
+}
+
+div.media-content h4.title
+{
+	overflow: hidden;
 }
