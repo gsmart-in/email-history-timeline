@@ -49,7 +49,7 @@ export default class HistoryEvent extends React.Component
 			        <div class="column is-full">
 			        {this.props.evt.related &&
 				        <div>
-				        <div><a href="javascript:void(0);" onClick={this.toggleMoreInfo.bind(this)}>more info</a></div>
+				        <div><a href="javascript:void(0)" onClick={this.toggleMoreInfo.bind(this)}>Related links</a></div>
 					        {this.state.showMoreInfo &&
 							<ul>
 					        {this.props.evt.related && this.props.evt.related.map(link => (

@@ -5,12 +5,12 @@ import Intro from "../partials/intro"
 import End from "../partials/end"
 import EndLinks from "../partials/EndLinks"
 import { graphql } from "gatsby"
+import HeaderMeta from "../partials/HeaderMeta"
 
 const IndexPage =  ({data}) => (
 		<Layout>
-    <div>
-    <span class="tag is-warning is-medium">Draft</span> 
-    </div>
+    <HeaderMeta/>
+    
 		<h1 class="title">History and TimeLine of Email</h1>
     <Intro/>
 
