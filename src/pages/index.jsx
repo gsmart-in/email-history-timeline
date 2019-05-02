@@ -10,8 +10,13 @@ import HeaderMeta from "../partials/HeaderMeta"
 const IndexPage =  ({data}) => (
 		<Layout>
     <HeaderMeta/>
-    
-		<h1 class="title">History and TimeLine of Email</h1>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">History and Timeline of Email</h1>
+        </div>
+      </div>
+    </section>
     <Intro/>
 
 		{data.allEmailHistoryHJson.edges.map(({ node }) => (
@@ -50,6 +55,10 @@ query {
         related{
           title
           url
+        }
+        photos{
+          url
+          description
         }
       }
     }

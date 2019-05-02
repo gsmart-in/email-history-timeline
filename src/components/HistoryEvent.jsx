@@ -1,5 +1,6 @@
 import React from "react"
 import People from "./people"
+import EventPhoto from "./EventPhoto"
 
 export default class HistoryEvent extends React.Component
 {
@@ -41,6 +42,13 @@ export default class HistoryEvent extends React.Component
 			         {col_text}   
 			        </div>
 			        ))}
+
+			        {this.props.evt.photos && this.props.evt.photos.map(photo => (
+				        <div class="column is-full-mobile is-one-third-tablet" >
+				        <EventPhoto photo={photo} />
+				        </div>
+			        ))}
+
 					{this.props.evt.people &&
 						<People people={this.props.evt.people}></People>
 					}

@@ -17,7 +17,7 @@ export default class Person extends React.Component
 	render()
 	{
 	    return (
-				<div class="card" style={{ maxWidth:'256px'}}>
+				<div class="card" style={{ maxWidth:'236px'}}>
 				<div class="card-content">
 				<div class="media">
 				    <div class="media-left">

@@ -517,6 +517,17 @@
 			}
 
 		]
+		photos:
+		[
+			{
+				url: https://tedium.imgix.net/2017/09/0928_eudora.jpg
+				description:
+				'''
+				Eudora email client screenshot.
+				'''
+				source: https://tedium.co/2017/09/28/eudora-email-history/
+			}
+		]
 	},
 	{
 		year: 1988
@@ -532,6 +543,17 @@
 			{
 				url: https://en.wikipedia.org/wiki/Microsoft_Mail
 				title: Microsoft Mail | Wikipedia
+			}
+		],
+		photos:
+		[
+			{
+				url:https://winworldpc.com/res/img/screenshots/Microsoft%20Mail%202.1%20-%20About.png
+				description:
+				'''
+				Microsoft Mail 2.1 screenshot.
+				'''
+				source: https://winworldpc.com/product/pc-mail/21
 			}
 		]
 	},
@@ -593,6 +615,37 @@
 			{
 				title: Today in Apple history: Mac sends first email from space | cultofmac.com
 				url: https://www.cultofmac.com/499200/apple-history-first-email-from-space/
+			},
+			{
+				title: History of email in the federal Government | fedtechmagazine.com
+				url: https://fedtechmagazine.com/article/2013/07/brief-history-email-federal-government
+			}
+		]
+		photos:
+		[
+			{
+				url: https://d.ibtimes.co.uk/en/full/1374473/laptop-used-bill-clinton-send-first-email-space-auction.jpg
+				description:
+				'''
+				White House physician Robert G. Darling standing next to US president Bill Clinton in 1998 as the latter sends his first email into space.
+				'''
+				source: https://www.ibtimes.co.uk/why-16-year-old-toshiba-laptop-attracting-bids-45000-1445133
+			},
+			{
+				url: https://upload.wikimedia.org/wikipedia/commons/6/69/James_Adamson.jpg
+				description:
+				'''
+				Astronaut James C. Adamson
+				'''
+				source:https://en.wikipedia.org/wiki/James_C._Adamson
+			},
+			{
+				url: https://upload.wikimedia.org/wikipedia/commons/3/3a/Shannon_Matilda_Wells_Lucid_1978.jpg
+				description:
+				'''
+				Astronaut Shannon Lucid
+				'''
+				source:https://en.wikipedia.org/wiki/Shannon_Lucid
 			}
 		]
 	},
@@ -762,6 +815,18 @@ Created by Nathaniel Borenstein and Ned Freed, it was the former who sent the fi
 			{
 				title: Mime and mail related RFCs
 				url: https://gist.github.com/Xerkus/3840496
+			}
+		]
+		photos:
+		[
+			{
+				url: https://static-ssl.businessinsider.com/image/5320cb27eab8eacf17fc4e6b-479-360/first-email-attachment.jpg?maxX=480
+				description:
+				'''
+				This picture is the first email attachment .
+				Far right is Nathaniel Borenstein.
+				'''
+				source:https://www.businessinsider.in/This-Picture-Was-The-First-Email-Attachment-Ever-Sent/articleshow/31912389.cms
 			}
 		]
 	},
@@ -1055,6 +1120,17 @@ Dave Rand and Paul Vixie, had started keeping a list of IP addresses which had s
 				url: https://techcrunch.com/2009/02/23/founders-at-work-uncovering-the-truth-behind-a-hotmail-founders-claims/
 			}
 		]
+		photos:
+		[
+			{
+				url: https://www.techpluto.com/wp-content/uploads/2009/06/hotmail21.jpg
+				description:
+				'''
+				A screenshot of hotmail.com, 1997
+				'''
+				source: https://www.techpluto.com/hotmail-evolution/
+			}
+		]
 
 	},
 	{
@@ -1098,6 +1174,17 @@ Dave Rand and Paul Vixie, had started keeping a list of IP addresses which had s
 				url: https://en.wikipedia.org/wiki/RocketMail
 			}
 		]
+		photos:
+		[
+			{
+				url: https://upload.wikimedia.org/wikipedia/en/5/53/Rocketmails.png
+				description:
+				'''
+				A screenshot of RocketMail.com
+				'''
+				source: https://en.wikipedia.org/wiki/RocketMail
+			}
+		]
 	},
 	{
 		year: 1998
@@ -1116,6 +1203,17 @@ Dave Rand and Paul Vixie, had started keeping a list of IP addresses which had s
 			{
 				title: You've Got Mail | warnerbros.com
 				url: http://youvegotmail.warnerbros.com/
+			}
+		]
+		photos:
+		[
+			{
+				url:https://upload.wikimedia.org/wikipedia/en/e/ee/You%27ve_Got_Mail.jpg
+				description:
+				'''
+				Poster of You’ve Got Mail - movie.
+				'''
+				source:https://en.wikipedia.org/wiki/You%27ve_Got_Mail
 			}
 		]
 	},
@@ -1383,6 +1481,7 @@ FastMail continues to operate one of the longest operating premium email service
 				url: https://en.wikipedia.org/wiki/History_of_Gmail
 			}
 		]
+
 	},
 	{
 		year: 2004
