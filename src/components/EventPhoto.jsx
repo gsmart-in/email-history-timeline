@@ -15,7 +15,10 @@ export default class EventPhoto extends React.Component
 			  <div class="card-content">
 			    <div class="content is-small">
 			      {renderHTML(this.props.photo.description)}
-			      <div><a target="_blank" href={this.props.photo.source}>source</a></div>
+			      
+			      {this.props.photo.source &&
+			      	<div><a target="_blank" href={this.props.photo.source}>source</a></div>
+			      }
 			    </div>
 			  </div>
 			</div>

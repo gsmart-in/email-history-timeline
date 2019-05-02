@@ -45,6 +45,7 @@ query {
         people {
           name
           photo
+          photo_source
           bio
           bio_url
           more_info{
@@ -59,6 +60,7 @@ query {
         photos{
           url
           description
+          source
         }
       }
     }

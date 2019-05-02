@@ -10,6 +10,10 @@ export default class Person extends React.Component
     		showMoreInfo:false
     	};
 	}
+	get photoURL()
+	{
+		return this.props.person.photo_source ? this.props.person.photo_source: this.props.person.photo;
+	}
 	toggleMoreInfo()
 	{
 		this.setState((state)=>({showMoreInfo:!state.showMoreInfo}));
@@ -23,7 +27,7 @@ export default class Person extends React.Component
 				    <div class="media-left">
 				    	{this.props.person.photo &&
 				        <figure class="image is-48x48" style={{maxWidth:'48px', overflow:'hidden'}}>
-				        	<a href={this.props.person.photo} rel="noopener noreferrer" target="_blank">
+				        	<a href={this.photoURL} rel="noopener noreferrer" target="_blank">
 				            <img src={this.props.person.photo} 
 				            alt={'photo of '+this.props.person.name }
 				            title={this.props.person.name}/>
