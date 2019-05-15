@@ -10,7 +10,7 @@ export default class Intro extends React.Component
 		<div class="column is-narrow"></div>
 		<div class="column is-6 content">
 		<p>
-		Electronic mail is much older than ARPANET or the Internet. It was never invented; it evolved from very simple beginnings. Going through the history of email has several benefits. First of all, email is one of the popular and longest standing creations of the internet. There are around 3.8 billion email users today and around 280 emails are sent every day globally. There were several attempts to “kill” email. However, the celebrated email alternatives either died down or just didn’t replace email. Despite all the challenges, email still goes strong and is the preferred business communication medium.
+		Electronic mail is much older than ARPANET or the Internet. It was never invented; it evolved from very simple beginnings. Going through the history of email has several benefits. First of all, email is one of the popular and longest standing creations of the internet. There are around 3.8 billion email users today and around 293 billion emails gets sent every day globally. There were several attempts to “kill” email. However, the celebrated email alternatives either died down or just didn’t replace email. Despite all the challenges, email still goes strong and is the preferred business communication medium.
 		</p>
 		<p>
 		Early email was just a small advance on what we know these days as a file directory - it just put a message in another user's directory in a spot where they could see it when they logged in. As simple as that. Just like leaving a note on someone's desk.
